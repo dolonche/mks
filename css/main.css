@@ -563,3 +563,56 @@ footer a:hover {
     padding: 30px 60px;
     padding-left: 100px;
 }
+
+.basket h2 {
+    position: relative
+}
+
+.basket h2::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #40C8F4;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -20px;
+}
+
+.steps {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.steps span:first-of-type {
+    padding: 20px 25px;
+    border: 1px solid #bfbfbf;
+    border-radius: 50%;
+}
+
+.basket-items {
+    padding-top: 60px;
+}
+
+.active-step {
+    border: 1px solid #40C8F4 !important;
+    color: #40C8F4
+}
+
+.product {
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.product img {
+    display: block;
+}
+
+.number-of-product {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.product .col-md-4 {
+    margin-top: 23px;
+}
