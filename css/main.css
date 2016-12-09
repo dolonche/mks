@@ -611,6 +611,21 @@ footer a:hover {
 .number-of-product {
     display: inline-block;
     margin-top: 20px;
+    font-size: 0px;
+}
+
+.number-of-product button,
+.number-of-product input {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.number-of-product button {
+    border: 1px solid #d9dfe3
 }
 
 .product .col-md-4 {
