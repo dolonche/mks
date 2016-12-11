@@ -34,8 +34,7 @@ body textarea:required:valid {}
 
 body {
     font-size: 18px;
-    ;
-    font-family: "Akrobat-Regular", sans-serif
+    font-family: "Akrobat-Semibold", sans-serif
 }
 
 ul {
@@ -602,11 +601,10 @@ footer a:hover {
 .product {
     text-transform: uppercase;
     margin-top: 40px;
+    overflow: hidden;
 }
 
-.product img {
-    display: block;
-}
+.product img {}
 
 .number-of-product {
     display: inline-block;
@@ -628,6 +626,17 @@ footer a:hover {
     border: 1px solid #d9dfe3
 }
 
-.product .col-md-4 {
+.product span {
+    display: block;
     margin-top: 23px;
+}
+
+.number-of-product + span {
+    display: inline-block;
+    margin-left: 80px;
+    color: #40c8f4
+}
+
+.first-step-finish span:last-of-type {
+    float: right;
 }
