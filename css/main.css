@@ -621,8 +621,7 @@ footer a:hover {
 }
 
 .number-of-product + span {
-    display: inline-block;
-    margin-left: 80px;
+float: right;
     color: #40c8f4
 }
 
@@ -714,4 +713,105 @@ form.delivery .type-of-delivery-wrapper input[type="radio"] + label {
     top: 9px;
     left: 9px;
     z-index: 1
+}
+
+.type-of-deliverypay input[type="radio"] + label {
+    display: inline-block;
+}
+
+.delivery input[type="radio"] {
+    display: none;
+}
+
+form.delivery .type-of-pay-wrapper input[type="radio"] + label {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: auto;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.type-of-pay-wrapper input[type="radio"]:last-of-type + label {
+    margin-left: 50px;
+}
+
+.type-of-pay-wrapper input[type="radio"]:nth-of-type(2) + label {
+    margin-left: 70px;
+}
+
+.type-of-pay-wrapper input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #b1b6b9;
+    position: absolute;
+    border: 1px solid #b1b6b9;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    z-index: 100
+}
+
+.type-of-pay-wrapper input[type="radio"]:checked + label::after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    border: 1px solid #00b3f1;
+    border-radius: 50%;
+    background-color: #00b3f1;
+    top: 9px;
+    left: 9px;
+    z-index: 1
+}
+
+
+/*
+.delivery input[type="text"]:last-of-type{
+    height: 200px;
+}
+*/
+
+.delivery textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.second-step-finish a:first-of-type {
+    float: left;
+    padding-top: 5px;
+    color: #40c8f4
+}
+
+.second-step-finish a:last-of-type {
+    float: right;
+    color: white;
+    background-color: #005dac;
+    color: white;
+    text-decoration: none;
+    padding: 5px 50px;
+}
+
+.buyer-information p{
+    float: left;
+    line-height: 50px;
+}
+.buyer-information .col-md-5 p{
+    width: 100%;
+    text-align: center;
+}
+.buyer-information .col-md-5{
+    float: right;
+    text-align: center;
+
+}
+.buyer-information .col-md-5 a{
+      background-color: #005dac;
+    color: white;
+    text-decoration: none;
+    padding: 8px 45px;
 }
