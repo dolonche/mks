@@ -832,6 +832,10 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
     opacity: 0.5
 }
 
+.product-information {
+    margin-bottom: 300px;
+}
+
 .product-information h2 {
     position: relative
 }
@@ -870,14 +874,16 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
     clear: left;
 }
 
-.technical-information-product .left-price{
-     font-family: "Akrobat-Bold", sans-serif;
-        font-size: 21px;
-    }
+.technical-information-product .left-price {
+    font-family: "Akrobat-Bold", sans-serif;
+    font-size: 21px;
+}
+
 .technical-information-product .right {
     float: right;
     text-align: right;
 }
+
 .technical-information-product .right button,
 .technical-information-product .right input {
     width: 30px;
@@ -887,29 +893,46 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
     border: none;
     text-align: center;
 }
-.technical-information-product .right button{
+
+.technical-information-product .right button {
     border: 1px solid #d9dfe3
 }
-.technical-information-product .right span:first-of-type{
+
+.technical-information-product .right span:first-of-type {
     text-decoration: line-through;
-    padding:0 30px ;
+    padding: 0 30px;
 }
-.technical-information-product .right span:last-of-type{
-    color: #005dac     
+
+.technical-information-product .right span:last-of-type {
+    color: #005dac
 }
- 
-.buy-one-click a{
-    color:#40c8f4;
+
+.buy-one-click a {
+    color: #40c8f4;
     text-decoration: underline;
 }
-.to-card-wrapper a{
+
+.to-card-wrapper a {
     display: block;
     padding-top: 30px;
 }
-.to-card a{
+
+.to-card a {
     background-color: #005dac;
     color: white;
     text-decoration: none;
     padding: 8px 45px;
     margin-top: 20px;
+}
+
+.card-phone {
+    text-align: center;
+}
+
+.card-phone p:first-of-type {
+    color: #005dac;
+}
+
+.card-phone p:last-of-type {
+    opacity: 0.5
 }
