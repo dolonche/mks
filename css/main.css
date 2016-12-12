@@ -863,6 +863,9 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
     float: right;
     clear: right;
 }
+.pictures-product a:nth-of-type(3),.pictures-product a:nth-of-type(4){
+    margin-top: 30px;
+}
 
 .technical-information-product {
     margin-top: 20px;
