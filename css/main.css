@@ -1038,6 +1038,7 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
 .paginator a:hover {
     color: #005dac;
 }
+
 .delivery-main h2 {
     position: relative;
 }
