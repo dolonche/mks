@@ -621,7 +621,7 @@ footer a:hover {
 }
 
 .number-of-product + span {
-float: right;
+    float: right;
     color: #40c8f4
 }
 
@@ -796,22 +796,120 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
     padding: 5px 50px;
 }
 
-.buyer-information p{
+.buyer-information p {
     float: left;
     line-height: 50px;
 }
-.buyer-information .col-md-5 p{
-    width: 100%;
-    text-align: center;
-}
-.buyer-information .col-md-5{
-    float: right;
-    text-align: center;
 
+.buyer-information .right p {
+    float: right;
+    margin-right: 35px;
 }
-.buyer-information .col-md-5 a{
-      background-color: #005dac;
+
+.buyer-information .right {
+    float: right;
+}
+
+.buyer-information .right a {
+    background-color: #005dac;
+    color: white;
+    float: right;
+    clear: right;
+    text-decoration: none;
+    padding: 8px 45px;
+}
+
+.right-phone {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.right-phone p:first-of-type {
+    color: #005dac;
+}
+
+.right-phone p:nth-of-type(3) {
+    opacity: 0.5
+}
+
+.product-information h2 {
+    position: relative
+}
+
+.product-information h2::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #40C8F4;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -20px;
+}
+
+.pictures-product {
+    margin-top: 40px;
+}
+
+.pictures-product img {
+    float: left;
+}
+
+.pictures-product a:not(:first-of-type) {
+    float: right;
+    clear: right;
+}
+
+.technical-information-product {
+    margin-top: 20px;
+}
+
+.technical-information-product .left {
+    float: left;
+    text-align: left;
+    clear: left;
+}
+
+.technical-information-product .left-price{
+     font-family: "Akrobat-Bold", sans-serif;
+        font-size: 21px;
+    }
+.technical-information-product .right {
+    float: right;
+    text-align: right;
+}
+.technical-information-product .right button,
+.technical-information-product .right input {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+.technical-information-product .right button{
+    border: 1px solid #d9dfe3
+}
+.technical-information-product .right span:first-of-type{
+    text-decoration: line-through;
+    padding:0 30px ;
+}
+.technical-information-product .right span:last-of-type{
+    color: #005dac     
+}
+ 
+.buy-one-click a{
+    color:#40c8f4;
+    text-decoration: underline;
+}
+.to-card-wrapper a{
+    display: block;
+    padding-top: 30px;
+}
+.to-card a{
+    background-color: #005dac;
     color: white;
     text-decoration: none;
     padding: 8px 45px;
+    margin-top: 20px;
 }
