@@ -863,7 +863,9 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
     float: right;
     clear: right;
 }
-.pictures-product a:nth-of-type(3),.pictures-product a:nth-of-type(4){
+
+.pictures-product a:nth-of-type(3),
+.pictures-product a:nth-of-type(4) {
     margin-top: 30px;
 }
 
@@ -938,4 +940,115 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
 
 .card-phone p:last-of-type {
     opacity: 0.5
+}
+
+.products-catalog h2 {
+    position: relative
+}
+
+.products-catalog h2::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #40C8F4;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -20px;
+}
+
+.brands {
+    margin-top: 32px;
+}
+
+.brands a:not(:first-of-type) {
+    padding-left: 20px;
+}
+
+.brands a {
+    color: #40c8f4
+}
+
+.brands a:hover {
+    color: #005dac;
+}
+
+.products-catalog .col-md-4 {
+    margin-top: 60px;
+}
+
+.products-catalog .to-card a {
+    padding: 5px 25px
+}
+
+.technical-information-product .buy-one-click,
+.technical-information-product .to-card {
+    margin-top: 20px;
+}
+
+.paginator {
+    text-align: center;
+}
+
+.paginator ul {}
+
+.paginator ul li {
+    display: inline-block;
+    padding-top: 150px;
+    width: 24px;
+    height: 24px;
+    text-decoration: underline
+}
+
+.paginator ul li a {
+    color: #333f48
+}
+
+.paginator ul li:first-of-type,
+.paginator ul li:last-of-type {
+    text-decoration: none;
+}
+
+.paginator ul li:nth-of-type(2),
+.paginator ul li:nth-of-type(12) {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.paginator ul li:nth-of-type(12) {
+    margin-left: 20px;
+}
+
+.paginator ul li:nth-of-type(10) {
+    text-decoration: none;
+}
+
+.paginator .active-page a {
+    width: 24px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #40c8f4;
+}
+
+.paginator .active-page {
+    text-decoration: none;
+}
+
+.paginator a:hover {
+    color: #005dac;
+}
+.delivery-main h2 {
+    position: relative;
+}
+
+.delivery-main h2::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #40C8F4;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -20px;
 }
