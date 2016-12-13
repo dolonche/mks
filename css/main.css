@@ -43,7 +43,6 @@ ul {
 }
 
 .top-line-header {
-    color: #333f48;
     margin-top: 10px;
 }
 
@@ -52,7 +51,7 @@ ul {
     margin-top: 7px;
 }
 
-.top-line-header .left-column span:last-child {
+.top-line-header .left-column span:last-child a {
     margin-left: 30px;
 }
 
@@ -60,14 +59,27 @@ ul {
     float: right;
 }
 
-.top-line-header .right-column span:first-child {
+.top-line-header .right-column span:first-child a {
     margin-right: 15px;
     font-size: 24px;
     color: #005dac;
     position: relative;
 }
 
-.top-line-header .right-column span:first-child::after {
+.top-line-header a {
+    color: #333f48;
+}
+
+.top-line-header a:hover {
+    color: #005dac
+}
+
+.top-line-header a:active {
+    color: #333f48;
+    opacity: 0.5
+}
+
+.top-line-header .right-column span:first-child a::after {
     content: "";
     position: absolute;
     height: 18px;
@@ -123,6 +135,13 @@ hr {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+
+/*
+.cart span:nth-of-type(3){
+    margin-left: -10px;
+}
+*/
 
 .catalog,
 .main-navigation {
@@ -207,10 +226,17 @@ hr {
     right: 10px;
 }
 
+.main-navigation ul {
+    font-size: 0;
+    text-align: center;
+}
+
 .main-navigation li {
     display: inline-block;
     padding: 0px 18px;
-    vertical-align: top
+    vertical-align: top;
+    font-size: 18px;
+    margin-top: 12px;
 }
 
 .main-navigation li a {
@@ -237,6 +263,17 @@ hr {
     height: 29px;
     color: #005dac;
     position: absolute
+}
+
+.form button:hover {
+    background-color: #005DAC;
+    color: white;
+}
+
+.form button:active {
+    color: #005dac;
+    border-bottom: none;
+    background-color: #fff;
 }
 
 .intro {
