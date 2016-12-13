@@ -457,8 +457,20 @@ article span {
     color: #00b3f1
 }
 
-article h3 {
+article h3 a {
     font-size: 25px;
+    color: #333f48
+}
+
+article h3 a:hover {
+    font-size: 25px;
+    color: #005dac
+}
+
+article h3 a:active {
+    font-size: 25px;
+    color: #333f48;
+    opacity: 0.5
 }
 
 .more-articles {
@@ -1124,7 +1136,7 @@ form.call-form p {
 }
 
 form.call-form input:first-of-type {
-    width: auto;
+    width: 100%;
     border-top: none;
     border-left: none;
     border-right: none;
