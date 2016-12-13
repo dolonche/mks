@@ -240,6 +240,14 @@ hr {
     margin-top: 12px;
 }
 
+.main-navigation li:first-of-type {
+    padding-top: 10px;
+}
+
+.main-navigation li:last-of-type {
+    padding-bottom: 10px;
+}
+
 .main-navigation li a {
     color: #333f48;
     font-family: "Akrobat-SemiBold", sans-serif
