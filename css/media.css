@@ -16,6 +16,15 @@
     }
     .cart span:nth-of-type(3){
 display: none;}
+    .catalog-items .to-card a{
+        padding: 5px 20px;
+    }
+    .technical-information-product h3{
+        font-size: 18px
+    }
+     .catalog-items .col-md-4 img{
+        width: 100%;
+    }
 }
 
 
@@ -73,6 +82,11 @@ display: none;}
        
     }
 */
+/*
+     .catalog-items .col-md-4 img{
+        width: auto;
+    }
+*/
 }
 
 
@@ -113,6 +127,13 @@ display: none;}
     .main-navigation ul {
         background-color: #40C8F4;
     }
+    .main-navigation li:first-of-type {
+    padding-top: 10px;
+}
+
+.main-navigation li:last-of-type {
+    padding-bottom: 10px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -157,14 +178,20 @@ display: none;}
     width: 240px;
         margin-left: -120px;
     }
-    /*
-      .main-navigation li{
-        padding:0 0px;
+    .catalog-items .col-md-4 img{
+        width: 100%;
     }
-*/
+    .catalog-items .left,.catalog-items .right{
+      font-size: 15px  
+    }
 }
 
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 340px){
+    .catalog-items .to-card a{
+        padding: 2px 5px;
+    }
+}
 @media only screen and (max-width: 320px) {
     .newsletter p {
         font-size: 14px
@@ -191,6 +218,9 @@ display: none;}
     .top-line-header .left-column span:last-child a {
     margin-left: 6px;
 }
+     .catalog-items .left,.catalog-items .right{
+      font-size: 13.489999px  
+    }
 }
 
 /*==========  Mobile First Method  ==========*/

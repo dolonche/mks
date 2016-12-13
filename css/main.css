@@ -137,6 +137,19 @@ hr {
     margin-right: 10px;
 }
 
+.cart a {
+    color: inherit
+}
+
+.cart a:hover {
+    color: #005DAC
+}
+
+.cart a:active {
+    color: inherit;
+    opacity: 0.5
+}
+
 
 /*
 .cart span:nth-of-type(3){
@@ -238,14 +251,6 @@ hr {
     vertical-align: top;
     font-size: 18px;
     margin-top: 12px;
-}
-
-.main-navigation li:first-of-type {
-    padding-top: 10px;
-}
-
-.main-navigation li:last-of-type {
-    padding-bottom: 10px;
 }
 
 .main-navigation li a {
