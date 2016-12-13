@@ -5,6 +5,9 @@ $(".catalog-button").click(function() {
 $(".arrow").click(function() {
     $(".catalog-2-level").slideToggle();
 })
+$(".brand-button").click(function() {
+    $(".brands-list").slideToggle();
+})
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>

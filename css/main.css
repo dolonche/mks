@@ -60,6 +60,15 @@ ul {
     float: right;
 }
 
+.right-column-phone {
+    float: right;
+    margin-top: 7px;
+}
+
+.right-column-phone span:first-child {
+    padding-right: 10px;
+}
+
 .top-line-header .right-column span:first-child a {
     margin-right: 15px;
     font-size: 24px;
@@ -78,6 +87,10 @@ ul {
 .top-line-header a:active {
     color: #333f48;
     opacity: 0.5
+}
+
+.phone-number {
+    color: #005dac
 }
 
 .top-line-header .right-column span:first-child a::after {
@@ -168,12 +181,43 @@ hr {
     cursor: pointer
 }
 
+.brand-button {
+    background-color: #00b3f1;
+    position: relative;
+    cursor: pointer
+}
+
 .catalog-button p,
 .catalog-button img {
     display: inline-block;
     color: white;
     padding: 12px 15px;
     margin: 0;
+}
+
+.brand-button {
+    margin-top: 40px;
+}
+
+.brand-button p,
+.brand-button img {
+    display: inline-block;
+    color: white;
+    padding: 12px 15px;
+    margin: 0;
+    font-size: 18px
+}
+
+.brands {
+    position: relative
+}
+
+.brands ul {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    margin-top: 0px;
 }
 
 .catalog ul {
