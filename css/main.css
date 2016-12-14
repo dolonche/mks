@@ -220,6 +220,10 @@ hr {
     margin-top: 0px;
 }
 
+.brands ul li:not(:first-child){
+    padding-left: 20px;    
+}
+
 .catalog ul {
     display: none;
 }
@@ -1261,6 +1265,7 @@ form.call-form {
 .close-form {
     display: none !important;
 }
+/*
 
 @keyframes close-form {
     100% {
@@ -1272,4 +1277,4 @@ form.call-form {
     0% {
         transform: translateY(0);
     }
-}
+}*/

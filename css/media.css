@@ -26,6 +26,12 @@
     .catalog-items .col-md-4 img {
         width: 100%;
     }
+    .brands ul li {
+        font-size: 16px
+    }
+    .brands ul li:not(:first-child) {
+        padding-left: 10px;
+    }
 }
 
 
@@ -79,8 +85,7 @@
     }
     .brands ul li {
         display: block;
-        padding: 10px 25px;
-        co
+        padding: 10px 25px !important;
     }
     .brands ul li a {
         color: white
@@ -138,6 +143,10 @@
     .main-navigation li {
         display: block;
         text-align: center;
+    }
+    .main-navigation li:not(:last-child) {
+        border-bottom: 2px solid white;
+        padding-bottom: 7px;
     }
     .main-navigation li a {
         color: aliceblue;
@@ -197,6 +206,14 @@
     .catalog-items .left,
     .catalog-items .right {
         font-size: 15px
+    }
+    .quote span {
+        padding-left: 6px;
+    }
+    .quote p {
+        padding: 30px 60px;
+        padding-left: 60px;
+        font-size: 18px
     }
 }
 
@@ -262,6 +279,11 @@
     .catalog-items .left,
     .catalog-items .right {
         font-size: 13.489999px
+    }
+    .quote p {
+        padding: 30px 60px;
+        padding-left: 60px;
+        font-size: 14px
     }
 }
 
