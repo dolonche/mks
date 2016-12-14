@@ -32,6 +32,18 @@
     .brands ul li:not(:first-child) {
         padding-left: 10px;
     }
+    .steps span:last-of-type {
+        float: left;
+        font-size: 13.4px;
+        margin-top: 21px;
+        margin-left: 7px;
+    }
+    .type-of-pay-wrapper input[type="radio"]:last-of-type + label {
+        margin-left: 20px;
+    }
+    .type-of-pay-wrapper input[type="radio"]:nth-of-type(2) + label {
+        margin-left: 20px;
+    }
 }
 
 
@@ -97,6 +109,12 @@
         z-index: 10;
         margin-top: 0px;
     }
+    .steps span:last-of-type {
+        float: left;
+        font-size: 17.2px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
 }
 
 
@@ -111,6 +129,12 @@
     }
     .main-navigation li {
         padding: 0 10px;
+    }
+    .type-of-pay-wrapper input[type="radio"]:last-of-type + label {
+        margin-left: 10px;
+    }
+    .type-of-pay-wrapper input[type="radio"]:nth-of-type(2) + label {
+        margin-left: 10px;
     }
 }
 
@@ -130,6 +154,12 @@
     .paginator ul li:nth-child(11),
     .paginator ul li:nth-child(13) {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .type-of-pay-wrapper input[type="radio"]:last-of-type + label {
+        margin-left: 0px;
     }
 }
 
@@ -238,6 +268,12 @@
         display: block;
         text-align: center;
     }
+    .steps span:last-of-type {
+        float: left;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
 }
 
 
@@ -284,6 +320,12 @@
         padding: 30px 60px;
         padding-left: 60px;
         font-size: 14px
+    }
+    .steps span:last-of-type {
+        float: left;
+        font-size: 10.1px;
+        margin-top: 25px;
+        margin-left: 1px;
     }
 }
 
