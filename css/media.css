@@ -213,31 +213,31 @@
         float: none !important;
         display: inline-block;
     }
-    .to-card {
+    .col-md-offset-1 .to-card {
         display: block;
         width: 100%;
     }
-    .technical-information-product .to-card a {
+    .col-md-offset-1 .technical-information-product .to-card a {
         text-align: center;
         padding: 10px 10px
     }
-    .technical-information-product .buy-one-click {
+    .col-md-offset-1 .technical-information-product .buy-one-click {
         display: block;
         width: 100%;
         text-align: center;
         margin-bottom: -20px;
     }
-    .technical-information-product .buy-one-click a {
+    .col-md-offset-1 .technical-information-product .buy-one-click a {
         padding-top: 0;
     }
     .technical-information-product .right input,
-    .technical-information-product .right button {
+    .col-md-offset-1 .technical-information-product .right button {
         display: none;
     }
-    .technical-information-product .right span:first-of-type {
+    .col-md-offset-1 .technical-information-product .right span:first-of-type {
         padding: 0 10px;
     }
-    .technical-information-product .right span {
+    .col-md-offset-1 .technical-information-product .right span {
         line-height: 30px
     }
 }
@@ -295,6 +295,9 @@
         padding-left: 60px;
         font-size: 18px
     }
+    .type-of-pay-wrapper input[type="radio"]:nth-of-type(2) + label {
+        margin-left: 0px;
+    }
 }
 
 @media only screen and (max-width: 369px) {
@@ -323,6 +326,12 @@
         font-size: 15px;
         margin-top: 20px;
         margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .type-of-delivery-wrapper input[type="radio"]:last-of-type + label {
+        margin-left: 0px;
     }
 }
 
