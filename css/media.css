@@ -127,6 +127,12 @@
         float: right !important;
         clear: right;
     }
+        footer .footer-item-img {
+        margin-top: -150px !important;
+    }
+    footer li {
+        text-align: left !important;
+    }
 }
 
 
