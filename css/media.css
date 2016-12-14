@@ -133,6 +133,9 @@
     footer li {
         text-align: left !important;
     }
+    .form button {
+        top: 20px;
+    }
 }
 
 
@@ -156,6 +159,16 @@
     }
     footer .footer-item-img {
         margin-top: 0px !important;
+    }
+    .news-button {
+        border: none;
+        padding-top: 10px;
+    }
+    .news-button::after {
+        display: none;
+    }
+    .form button {
+        top: 0px;
     }
 }
 
