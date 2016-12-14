@@ -190,6 +190,45 @@
     .main-navigation li:last-of-type {
         padding-bottom: 10px;
     }
+    .pictures-product a:first-of-type img {
+        width: 100%;
+    }
+    .pictures-product a:not(:first-of-type) img {}
+    .pictures-product {
+        text-align: center;
+    }
+    .pictures-product a:not(:first-of-type) {
+        float: none !important;
+        display: inline-block;
+    }
+    .to-card {
+        display: block;
+        width: 100%;
+    }
+    .technical-information-product .to-card a {
+        text-align: center;
+        padding: 10px 10px
+    }
+    .technical-information-product .buy-one-click {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: -20px;
+    }
+    .technical-information-product .buy-one-click a {
+        padding-top: 0;
+    }
+
+    .technical-information-product .right input,.technical-information-product .right button{
+        display: none;
+    }
+    .technical-information-product .right span:first-of-type{
+        padding: 0 10px;
+    }
+    .technical-information-product .right span{
+        line-height: 30px
+    }
+
 }
 
 
@@ -282,6 +321,9 @@
 @media only screen and (max-width: 340px) {
     .catalog-items .to-card a {
         padding: 2px 5px;
+    }
+    .technical-information-product {
+        font-size: 13.489999px
     }
 }
 

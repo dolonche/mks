@@ -749,6 +749,18 @@ footer a:hover {
     border: 1px solid #d9dfe3
 }
 
+.number-of-product button:hover {
+    background-color: #40c8f4;
+    color: white
+}
+
+.number-of-product button:active {
+    border-color: black;
+    color: black;
+    border-top: none;
+    border-right: none;
+}
+
 .product span {
     display: block;
     margin-top: 23px;
@@ -1211,7 +1223,40 @@ form.call-form {
     left: 50%;
     top: 100%;
     margin-left: -180px;
-    border: 1px solid #d9dfe3
+    border: 1px solid #d9dfe3;
+}
+
+form.call-form .cross {
+    background-image: url(/images/closed-cross.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    transition: 0.3s all
+}
+
+form.call-form .cross:hover {
+    background-image: url(/images/closed-cross.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background-position: -204px 0;
+}
+
+form.call-form .cross:hover {
+    background-image: url(/images/closed-cross.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background-position: -204px 0;
 }
 
 form.call-form p {
