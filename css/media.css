@@ -133,6 +133,7 @@
     footer li {
         text-align: left !important;
     }
+<<<<<<< HEAD
     .search-down .form button {
         top: 20px;
     }
@@ -215,6 +216,8 @@
     .main-menu li:first-child {
         margin-left: 10px;
     }
+=======
+>>>>>>> parent of 48dc420... new search
 }
 
 /* Small Devices, Tablets */
@@ -238,6 +241,7 @@
     footer .footer-item-img {
         margin-top: 0px !important;
     }
+<<<<<<< HEAD
     .news-button {
         border: none;
         padding-top: 10px;
@@ -296,6 +300,8 @@
     .main-menu li:first-child {
         margin-left: 10px;
     }
+=======
+>>>>>>> parent of 48dc420... new search
 }
 
 @media only screen and (max-width: 600px) {
