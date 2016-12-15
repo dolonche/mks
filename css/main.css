@@ -288,6 +288,11 @@ hr {
     right: 10px;
 }
 
+.navigation-button{
+    position: relative;
+    cursor: pointer
+}
+
 .main-navigation ul {
     font-size: 0;
     text-align: center;

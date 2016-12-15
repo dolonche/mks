@@ -136,6 +136,12 @@
     .search-down .form button {
         top: 20px;
     }
+    ul.main-menu {
+        display: none;
+    }
+    ul.main-menu li {
+        display: inline-block;
+    }
 }
 
 
@@ -181,6 +187,16 @@
         padding-left: 10px;
         font-size: 18px
     }
+    ul.main-menu {
+        display: none;
+        position: absolute !important;
+        top: 100%;
+        z-index: 10
+    }
+    .navigation-button {
+        padding: 13px;
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -220,7 +236,6 @@
         text-align: center;
     }
     .main-navigation li:not(:last-child) {
-        border-bottom: 2px solid white;
         padding-bottom: 7px;
     }
     .main-navigation li a {
@@ -387,14 +402,39 @@
     .cog p {
         font-size: 14px !important;
     }
+    /*
     .main-navigation li {
         display: block;
         text-align: center;
     }
-    .catalog-button p,
+*/
+    .catalog-button {
+        position: relative;
+        width: 150px;
+    }
+    .catalog-button img {
+        position: absolute;
+        width: 50px;
+        left: -10px;
+        top: 1px;
+    }
+    .catalog-button p {
+        margin-left: 35px;
+        text-align: left;
+        font-size: 15px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .inner-catalog ul {
+        width: 150px
+    }
     .inner-catalog li {
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 10px !important;
+    }
+    .inner-catalog li:first-of-type::after {
+        left: 2px;
+        top: 17px;
     }
     .brand-button p,
     .brands li {
@@ -421,6 +461,23 @@
         font-size: 10.1px;
         margin-top: 25px;
         margin-left: 1px;
+    }
+    ul.main-menu {
+        display: none;
+        position: absolute !important;
+        top: 55px;
+        z-index: 10;
+        left: 5px;
+        width: 105%;
+    }
+    .navigation-button {
+        padding: 9px 0px;
+        width: 75px;
+        margin-top: 14px;
+        padding-right: 0px;
+    }
+    .main-menu li {
+        font-size: 13.4px
     }
 }
 
