@@ -1343,18 +1343,30 @@ footer .col-sm-2:first-of-type {}
     background-color: white;
     border-bottom: 2px solid #ccc;
     z-index: 10;
-    transition:1s;
+    transition: 1s;
 }
-.bottom-line-header{
+
+.bottom-line-header {
     transition: 1s all;
-    top:-80px;
+    top: -80px;
 }
+
 header {
     position: relative
 }
-.bottom-line-header.fixed .catalog{
+
+.bottom-line-header.fixed .catalog {
     margin-bottom: 10px;
 }
+
+.bottom-line-header.fixed .main-navigation a {
+    font-size: 18px
+}
+
+.bottom-line-header.fixed .main-navigation {
+    margin-left: -50px;
+}
+
 
 /*
 
