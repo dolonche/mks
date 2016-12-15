@@ -1332,8 +1332,28 @@ form.call-form {
 .close-form {
     display: none !important;
 }
-footer .col-sm-2:first-of-type{
-    
+
+footer .col-sm-2:first-of-type {}
+
+.bottom-line-header.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+    z-index: 10;
+    transition:1s;
+}
+.bottom-line-header{
+    transition: 1s all;
+    top:-80px;
+}
+header {
+    position: relative
+}
+.bottom-line-header.fixed .catalog{
+    margin-bottom: 10px;
 }
 
 /*

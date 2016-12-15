@@ -8,6 +8,14 @@ $(".arrow").click(function() {
 $(".brand-button").click(function() {
     $(".brands-list").slideToggle();
 })
+$(window).scroll(function(){
+      if ($(this).scrollTop() > 200) {
+          $('.bottom-line-header').addClass('fixed');
+      } else {
+          $('.bottom-line-header').removeClass('fixed');
+          $('.bottom-line-header').removeClass('fixed');
+      }
+});
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
