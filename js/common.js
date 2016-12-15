@@ -5,15 +5,21 @@ $(".catalog-button").click(function() {
 $(".arrow").click(function() {
     $(".catalog-2-level").slideToggle();
 })
+$(".catalog-button-2").click(function() {
+    $(".inner-catalog-2 .main-catalog-2").slideToggle();
+})
+$(".arrow-2").click(function() {
+    $(".catalog-2-level-2").slideToggle();
+})
 $(".brand-button").click(function() {
     $(".brands-list").slideToggle();
 })
 $(window).scroll(function(){
       if ($(this).scrollTop() > 200) {
-          $('.bottom-line-header').addClass('fixed');
+          $('.bottom-line-header-2').addClass('fixed');
       } else {
-          $('.bottom-line-header').removeClass('fixed');
-          $('.bottom-line-header').removeClass('fixed');
+          $('.bottom-line-header-2').removeClass('fixed');
+          $('.bottom-line-header-2').removeClass('fixed');
       }
 });
 	//Таймер обратного отсчета
