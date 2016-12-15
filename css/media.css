@@ -136,6 +136,9 @@
     .search-down .form button {
         top: 20px;
     }
+    .fixed{
+        display: none;
+    }
 }
 
 
