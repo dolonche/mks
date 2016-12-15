@@ -1348,8 +1348,9 @@ footer .col-sm-2:first-of-type {}
 }
 
 .bottom-line-header-2 {
-    transition: 1s all;
+    transition: 1s opacity;
     top: -80px;
+    opacity: 0
     display: none;
 }
 
@@ -1360,7 +1361,9 @@ header {
 .bottom-line-header-2.fixed .catalog {
     margin-bottom: 10px;
 }
-
+.bottom-line-header-2.{
+    position: relative
+}
 .bottom-line-header-2.fixed .main-navigation a {
     font-size: 18px
 }
@@ -1368,7 +1371,9 @@ header {
 .bottom-line-header-2.fixed .main-navigation {
     margin-left: -50px;
 }
-
+.bottom-line-header-2.fixed{
+    opacity: 1
+}
 
 /*
 
@@ -1383,6 +1388,7 @@ header {
         transform: translateY(0);
     }
 }*/
+
 .catalog-2-2 ul {
     display: none;
 }
@@ -1473,6 +1479,7 @@ header {
     color: #333f48;
     opacity: 0.5
 }
+
 .catalog-2,
 .main-navigation-2 {
     margin-top: 10px;
@@ -1481,9 +1488,9 @@ header {
 .catalog-button-2 {
     background-color: #00b3f1;
     position: relative;
-    cursor: pointer
+    cursor: pointer;
+    display: none;
 }
-
 
 .catalog-button-2 p,
 .catalog-button-2 img {
@@ -1491,4 +1498,95 @@ header {
     color: white;
     padding: 12px 15px;
     margin: 0;
+}
+
+.main-navigation-wrapper-2 {
+    margin-top: 22px;
+    display: none;
+}
+
+.main-navigation-wrapper-2 i,
+.main-navigation-wrapper-2 span {
+    cursor: pointer
+}
+
+.main-navigation-2 {
+    position: relative;
+}
+
+.main-navigation-wrapper-2:hover {
+    color: #005dac
+}
+
+.main-navigation-2 ul {
+    position: absolute;
+    width: 425%;
+    top: -46px;
+    left: 15px;
+    background-color: #fff;
+    text-align: left;
+    height: 52px;
+    display: none;
+    z-index: 10
+}
+
+.main-navigation-2 li {
+    display: inline-block;
+    padding: 0;
+    padding-left: 30px;
+}
+
+.bottom-line-header-2 input {
+    margin-top: 20px;
+    margin-left: -70px;
+    border: none;
+    width: auto;
+}
+
+.search-2 {
+    position: relative;
+    display: none;
+}
+
+.search-2 i {
+    position: absolute;
+    top: 25px;
+    right: 85px;
+}
+
+.search-2 i:hover {
+    color: #005dac
+}
+
+.number-phone-2 {
+    width: 160px;
+    margin-top: 22px;
+    color: #005dac;
+    margin-left: -70px;
+    display: none;
+}
+
+.cart-2 {
+    width: 200px;
+    margin-left: -50px;
+    margin-top: 15px;
+    display: none;
+}
+
+.cart-2 span:first-of-type {
+    padding: 9px 15px;
+    color: white;
+    background-color: #40c8f4;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cart-2 span:last-of-type {
+    color: inherit;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+.block{
+    display: block;
 }

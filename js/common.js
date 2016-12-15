@@ -14,12 +14,25 @@ $(".arrow-2").click(function() {
 $(".brand-button").click(function() {
     $(".brands-list").slideToggle();
 })
+$(".main-navigation-wrapper-2").click(function() {
+    $(".main-navigation-2 ul").animate({width: 'toggle'});
+})
 $(window).scroll(function(){
       if ($(this).scrollTop() > 200) {
           $('.bottom-line-header-2').addClass('fixed');
+          $('.search-2').addClass('block');
+          $('.number-phone-2').addClass('block');
+          $('.cart-2').addClass('block');
+          $('.main-navigation-wrapper-2').addClass('block');
+          $('.catalog-button-2').addClass('block');
       } else {
           $('.bottom-line-header-2').removeClass('fixed');
           $('.bottom-line-header-2').removeClass('fixed');
+          $('.search-2').removeClass('block');
+          $('.number-phone-2').removeClass('block');
+          $('.cart-2').removeClass('block');
+          $('.main-navigation-wrapper-2').removeClass('block');
+          $('.catalog-button-2').removeClass('block');
       }
 });
 	//Таймер обратного отсчета

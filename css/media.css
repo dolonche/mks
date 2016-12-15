@@ -136,8 +136,8 @@
     .search-down .form button {
         top: 20px;
     }
-    .fixed{
-        display: none;
+    .bottom-line-header-2.fixed{
+        display: none !important
     }
 }
 

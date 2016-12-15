@@ -2,7 +2,7 @@
 var form = document.querySelector(".call-form");
 var phone = document.querySelector("#phone-number");
 var cross = document.querySelector(".cross");
-var mainmenu = document.querySelector(".inner-catalog a")
+var mainmenu = document.querySelector(".inner-catalog-2 a")
 //var dateoff = document.querySelector("[name=departure]");
 var link = document.querySelector(".request-call");
 mainmenu.addEventListener("click", function (event) {
