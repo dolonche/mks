@@ -8,9 +8,6 @@ $(".arrow").click(function() {
 $(".brand-button").click(function() {
     $(".brands-list").slideToggle();
 })
-$(".navigation-button").click(function() {
-    $(".main-menu").animate({width: 'toggle'});
-})
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
