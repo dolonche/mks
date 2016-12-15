@@ -213,6 +213,10 @@
         color: black !important;
         font-weight: 600
     }
+    .main-menu a:hover {
+        color: #40c8f4 !important;
+        transition: 0.2s
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -241,19 +245,18 @@
 }
 
 @media only screen and (max-width: 550px) {
+    /*
     .main-navigation li {
         padding: 0 3px;
     }
+*/
 }
 
 @media only screen and (max-width: 510px) {
     .main-navigation li {
         display: block;
-        text-align: center;
     }
-    .main-navigation li:not(:last-child) {
-        padding-bottom: 7px;
-    }
+    .main-navigation li:not(:last-child) {}
     .main-navigation li a {
         color: aliceblue;
     }
@@ -303,6 +306,10 @@
     }
     .col-md-offset-1 .technical-information-product .right span {
         line-height: 30px
+    }
+    .main-navigation ul {
+        background-color: white;
+        box-shadow: 0px 6px 14px 1px black
     }
 }
 
@@ -485,6 +492,7 @@
         z-index: 10;
         left: 5px;
         width: 105%;
+        background-color: #fff;
     }
     .navigation-button {
         padding: 9px 0px;
@@ -494,6 +502,11 @@
     }
     .main-menu li {
         font-size: 13.4px
+    }
+    .main-menu li {
+        text-align: left;
+        font-size: 14px;
+        padding-top: 15px !important;
     }
 }
 
