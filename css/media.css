@@ -326,13 +326,17 @@
                 font-size: 16px !important;
             }
             .top-line-header .left-column,
-            .top-line-header .right-column {
+            .top-line-header .right-column-phone {
                 float: none;
                 text-align: center;
             }
-            .top-line-header .left-column span {
+            .top-line-header .left-column span a {
                 padding: 0;
-                margin: 0 !important;
+                padding-left: 10px !important;
+            }
+            .top-line-header .left-column span:first-child a {
+                padding-right: 35px;
+                margin-left: -10px
             }
             .form button {
                 width: 90px;
@@ -372,6 +376,9 @@
                 margin-left: 0px;
                 padding-left: 0;
                 padding-right: 0;
+            }
+            .top-line-header .right-column-phone span:first-child::after {
+                display: none;
             }
         }
         
@@ -491,6 +498,25 @@
                 width: 160%;
                 margin-left: -20px;
                 margin-top: 16px;
+            }
+            .top-line-header .left-column,
+            .top-line-header .right-column-phone {
+                float: none;
+                text-align: center;
+            }
+            .top-line-header .right-column-phone span:last-of-type {
+                display: none;
+            }
+            .top-line-header .left-column span {
+                display: block;
+                text-align: center;
+            }
+            .top-line-header .left-column span a {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .middle-line-header .logo img {
+                width: 208px;
             }
         }
         /*==========  Mobile First Method  ==========*/
