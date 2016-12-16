@@ -350,7 +350,7 @@ hr {
 
 .intro {
     text-align: center;
-    background-image: url(/images/mountains.jpg);
+    background-image: url(../images/mountains.jpg);
     background-repeat: no-repeat;
     background-size: auto 480px;
     background-position: center;
