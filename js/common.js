@@ -28,6 +28,7 @@ $(window).scroll(function(){
           $('.cart-2').addClass('block');
           $('.main-navigation-wrapper-2').addClass('block');
           $('.catalog-button-2').addClass('block');
+          $('.main-navigation-2 li').addClass('block');
       } else {
           $('.bottom-line-header-2').removeClass('fixed');
           $('.bottom-line-header-2').removeClass('fixed');
@@ -36,6 +37,7 @@ $(window).scroll(function(){
           $('.cart-2').removeClass('block');
           $('.main-navigation-wrapper-2').removeClass('block');
           $('.catalog-button-2').removeClass('block');
+          $('.main-navigation-2 li').removeClass('block');
       }
 });
 	//Таймер обратного отсчета

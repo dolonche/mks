@@ -1344,13 +1344,14 @@ footer .col-sm-2:first-of-type {}
     background-color: white;
     border-bottom: 2px solid #ccc;
     z-index: 10;
-    transition: 1s;
+    transition: 1s top;
 }
 
 .bottom-line-header-2 {
-    transition: 1s opacity;
+    transition: 1s top;
     top: -80px;
-    opacity: 0 display: none;
+    opacity: 0; 
+/*    display: none;*/
 }
 
 header {
@@ -1536,7 +1537,7 @@ header {
 .main-navigation-2 li {
     display: inline-block;
     padding: 0;
-    padding-left: 13px;
+    padding-left: 14.4px;
 }
 
 .bottom-line-header-2 input {
@@ -1596,7 +1597,6 @@ header {
 .block {
     display: block;
 }
-
-.bottom-line-header-2 .cart {
+.bottom-line-header-2 .cart{
     text-align: right;
 }
