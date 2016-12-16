@@ -136,8 +136,33 @@
     .search-down .form button {
         top: 20px;
     }
-    .bottom-line-header-2.fixed{
+    .bottom-line-header-2.fixed {
         display: none !important
+    }
+        .bottom-line-header {
+        position: relative;
+    }
+    .mini-menu {
+        margin-top: 22px;
+    }
+    .main-navigation-wrapper {
+        position: absolute;
+        width: 290%;
+        margin-left: -200%;
+        z-index: 10;
+        margin-top: 11px;
+    }
+    .main-navigation ul {
+        background-color: white;
+        text-align: left;
+        box-shadow: 0px 7px 10px 2px #ccc
+    }
+    .main-navigation li {
+        display: block;
+        font-size: 18px;
+    }
+    .main-navigation li a {
+        padding: 10px;
     }
 }
 
@@ -184,6 +209,31 @@
         padding-left: 10px;
         font-size: 18px
     }
+    .bottom-line-header {
+        position: relative;
+    }
+    .mini-menu {
+        margin-top: 22px;
+    }
+    .main-navigation-wrapper {
+        position: absolute;
+        width: 290%;
+        margin-left: -200%;
+        z-index: 10;
+        margin-top: 11px;
+    }
+    .main-navigation ul {
+        background-color: white;
+        text-align: left;
+        box-shadow: 0px 7px 10px 2px #ccc
+    }
+    .main-navigation li {
+        display: block;
+        font-size: 18px;
+    }
+    .main-navigation li a {
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -218,6 +268,7 @@
 }
 
 @media only screen and (max-width: 510px) {
+    /*
     .main-navigation li {
         display: block;
         text-align: center;
@@ -238,6 +289,7 @@
     .main-navigation li:last-of-type {
         padding-bottom: 10px;
     }
+*/
     .pictures-product a:first-of-type img {
         width: 100%;
     }
@@ -390,10 +442,12 @@
     .cog p {
         font-size: 14px !important;
     }
+    /*
     .main-navigation li {
         display: block;
         text-align: center;
     }
+*/
     .catalog-button p,
     .inner-catalog li {
         font-size: 14px;
@@ -404,9 +458,11 @@
         font-size: 14px;
         padding-left: 10px !important;
     }
+    /*
     .main-navigation ul {
         background-color: #40C8F4;
     }
+*/
     .top-line-header .left-column span:last-child a {
         margin-left: 6px;
     }

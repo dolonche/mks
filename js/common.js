@@ -14,6 +14,9 @@ $(".arrow-2").click(function() {
 $(".brand-button").click(function() {
     $(".brands-list").slideToggle();
 })
+$(".mini-menu").click(function() {
+    $(".main-navigation ul").slideToggle();
+})
 $(".main-navigation-wrapper-2").click(function() {
     $(".main-navigation-2 ul").animate({width: 'toggle'});
 })
