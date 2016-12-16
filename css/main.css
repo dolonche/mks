@@ -423,8 +423,12 @@ hr {
 }
 
 .intro p {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 80px;
+    font-family: "Akrobat-Light", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -452,7 +456,14 @@ h1::after {
 .intro a {
     color: white;
     background-color: #005DAC;
-    padding: 15px 10px;
+    display: block;
+    width: 166px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: "Akrobat-Light", sans-serif;
+    padding: 8px 0px;
+    letter-spacing: 1px;
 }
 
 .news h2 {
