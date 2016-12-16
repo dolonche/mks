@@ -109,6 +109,10 @@ hr {
     margin-top: 5px;
 }
 
+.middle-line-header .logo img {
+    width: 260px;
+}
+
 .middle-line-header .cog-img {
     height: 80px;
     float: left;
