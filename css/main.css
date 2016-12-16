@@ -285,7 +285,7 @@ hr {
     top: 50%;
     margin-top: -2px;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     right: 10px;
 }
 
@@ -325,6 +325,7 @@ hr {
     padding: 0;
     position: relative;
     outline: none;
+    height: 25px;
 }
 
 .form button {
@@ -444,7 +445,7 @@ h1::after {
     top: 7px;
     margin-left: -21px;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg)
+    transform: rotate(45deg)
 }
 
 .newsletter span {
@@ -1287,30 +1288,30 @@ form.call-form input:last-of-type {
 @-webkit-keyframes animate-form {
     0% {
         -webkit-transform: translateY(-2000px);
-                transform: translateY(-2000px);
+        transform: translateY(-2000px);
     }
     50% {
         -webkit-transform: translateY(100px);
-                transform: translateY(100px);
+        transform: translateY(100px);
     }
     100% {
         -webkit-transform: translateY(0);
-                transform: translateY(0);
+        transform: translateY(0);
     }
 }
 
 @keyframes animate-form {
     0% {
         -webkit-transform: translateY(-2000px);
-                transform: translateY(-2000px);
+        transform: translateY(-2000px);
     }
     50% {
         -webkit-transform: translateY(100px);
-                transform: translateY(100px);
+        transform: translateY(100px);
     }
     100% {
         -webkit-transform: translateY(0);
-                transform: translateY(0);
+        transform: translateY(0);
     }
 }
 
@@ -1320,9 +1321,9 @@ form.call-form {
 
 .animated-form {
     -webkit-animation-name: animate-form;
-            animation-name: animate-form;
+    animation-name: animate-form;
     -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-duration: 1s;
     z-index: 100;
     display: block !important;
 }
@@ -1331,7 +1332,7 @@ form.call-form {
     0%,
     100% {
         -webkit-transform: translateX(0);
-                transform: translateX(0);
+        transform: translateX(0);
     }
     10%,
     30%,
@@ -1339,14 +1340,14 @@ form.call-form {
     70%,
     90% {
         -webkit-transform: translateX(-10px);
-                transform: translateX(-10px);
+        transform: translateX(-10px);
     }
     20%,
     40%,
     60%,
     80% {
         -webkit-transform: translateX(10px);
-                transform: translateX(10px);
+        transform: translateX(10px);
     }
 }
 
@@ -1354,7 +1355,7 @@ form.call-form {
     0%,
     100% {
         -webkit-transform: translateX(0);
-                transform: translateX(0);
+        transform: translateX(0);
     }
     10%,
     30%,
@@ -1362,22 +1363,22 @@ form.call-form {
     70%,
     90% {
         -webkit-transform: translateX(-10px);
-                transform: translateX(-10px);
+        transform: translateX(-10px);
     }
     20%,
     40%,
     60%,
     80% {
         -webkit-transform: translateX(10px);
-                transform: translateX(10px);
+        transform: translateX(10px);
     }
 }
 
 .form-error {
     -webkit-animation-name: error-form;
-            animation-name: error-form;
+    animation-name: error-form;
     -webkit-animation-duration: 1S;
-            animation-duration: 1S
+    animation-duration: 1S
 }
 
 .close-form {
@@ -1507,7 +1508,7 @@ header {
     top: 50%;
     margin-top: -2px;
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     right: 10px;
 }
 
