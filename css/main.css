@@ -1,28 +1,28 @@
 *::-webkit-input-placeholder {
     font-size: 14px;
     color: #333f48;
-    padding-left: 5px;
-    opacity: 0.6
+    padding-left: 15px;
+    opacity: 0.6;
 }
 
 *:-moz-placeholder {
     font-size: 14px;
     color: #333f48;
-    padding-left: 5px;
+    padding-left: 15px;
     opacity: 0.6
 }
 
 *::-moz-placeholder {
     font-size: 14px;
     color: #333f48;
-    padding-left: 5px;
+    padding-left: 15px;
     opacity: 0.6
 }
 
 *:-ms-input-placeholder {
     font-size: 14px;
     color: #333f48;
-    padding-left: 5px;
+    padding-left: 15px;
     opacity: 0.6
 }
 
@@ -127,14 +127,17 @@ hr {
 
 .middle-line-header .cog img {
     margin-top: 0px;
-    padding-top: 15px;
+    padding-top: 8px;
+    padding-left: 33px;
     margin-right: 10px;
 }
 
 .middle-line-header .cog p:first-of-type {
     font-size: 24px;
     text-align: left;
-    margin-top: 0px;
+    font-family: "Akrobat-ExtraBold", sans-serif;
+    padding-left: 94px;
+    margin-top: 2px;
     color: #005dac;
 }
 
@@ -142,20 +145,33 @@ hr {
     font-size: 16px;
     color: #333f48;
     text-align: left;
-    margin-top: -15px;
-    padding-left: 0px;
+    opacity: 0.5;
+    margin-top: -24px;
+    padding-left: 95px;
 }
 
 .cart {
     text-align: right;
-    margin-top: 10px;
+    margin-top: 14px;
+}
+
+.cart img {
+    padding-right: 15px;
+}
+
+.cart span:nth-of-type(1) {
+    font-size: 16px;
+    padding-right: 4px;
 }
 
 .cart span:nth-of-type(2) {
-    padding: 10px 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    padding-right: 11px;
     color: white;
     background-color: #40c8f4;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
 }
 
@@ -191,7 +207,8 @@ hr {
 .catalog-button {
     background-color: #00b3f1;
     position: relative;
-    cursor: pointer
+    cursor: pointer;
+    width: 263px;
 }
 
 .brand-button {
@@ -204,8 +221,20 @@ hr {
 .catalog-button img {
     display: inline-block;
     color: white;
-    padding: 12px 15px;
     margin: 0;
+    padding-top: 1px;
+    padding-left: 16px;
+    padding-bottom: 5px;
+}
+
+.catalog-button p {
+    font-size: 24px;
+    padding-left: 28px;
+    padding-top: 2px;
+}
+
+.catalog-button img {
+    padding-top: 1px;
 }
 
 .brand-button {
@@ -304,15 +333,35 @@ hr {
 
 .main-navigation ul {
     font-size: 0;
-    text-align: left;
+    text-align: le`ft;
 }
 
 .main-navigation li {
     display: inline-block;
-    padding: 0px 15px;
+    padding: 0px 0px;
     vertical-align: top;
     font-size: 24px;
-    margin-top: 12px;
+    margin-top: 10px;
+}
+
+.main-navigation li:not(:first-child) {
+    padding-left: 38px;
+}
+
+.main-navigation li:nth-child(3) {
+    padding-left: 47px;
+}
+
+.main-navigation li:nth-child(4) {
+    padding-left: 58px;
+}
+
+.main-navigation li:nth-child( 5) {
+    padding-left: 42px;
+}
+
+.main-navigation li:nth-child(6) {
+    padding-left: 45px;
 }
 
 .main-navigation li a {
@@ -330,7 +379,7 @@ hr {
 }
 
 .form form {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .form input {
@@ -338,16 +387,16 @@ hr {
     padding: 0;
     position: relative;
     outline: none;
-    height: 25px;
+    height: 37px;
 }
 
 .form button {
     background-color: transparent;
-    width: 135px;
+    width: 169px;
     border: 1px solid #005dac;
     right: 11px;
-    top: 20px;
-    height: 29px;
+    top: 10px;
+    height: 41px;
     color: #005dac;
     position: absolute
 }
@@ -374,16 +423,18 @@ hr {
 }
 
 .intro p {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 80px;
 }
 
 h1 {
     text-transform: uppercase;
-    font-family: "Akrobat-Light", sans-serif;
+    font-family: "Akrobat-Regular", sans-serif;
     font-size: 48px;
-    margin-top: 60px;
+    font-weight: 100;
+    margin-top: 65px;
     position: relative;
+    letter-spacing: 5px
 }
 
 h1::after {
@@ -392,7 +443,7 @@ h1::after {
     width: 166px;
     height: 2px;
     top: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: #40c8f4;
     left: 50%;
     margin-left: -83px;
