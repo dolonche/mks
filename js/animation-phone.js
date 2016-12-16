@@ -3,9 +3,13 @@ var form = document.querySelector(".call-form");
 var phone = document.querySelector("#phone-number");
 var cross = document.querySelector(".cross");
 var mainmenu = document.querySelector(".inner-catalog-2 a")
+var mainmenu0 = document.querySelector(".inner-catalog a")
 //var dateoff = document.querySelector("[name=departure]");
 var link = document.querySelector(".request-call");
 mainmenu.addEventListener("click", function (event) {
+     event.preventDefault(); 
+});
+mainmenu0.addEventListener("click", function (event) {
      event.preventDefault(); 
 });
 link.addEventListener("click", function (event) {
