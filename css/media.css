@@ -50,6 +50,9 @@
                 float: none !important;
                 display: inline-block;
             }
+            .main-navigation-2 li {
+                font-size: 20px;
+            }
         }
         /* Medium Devices, Desktops */
         

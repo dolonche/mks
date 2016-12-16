@@ -1243,7 +1243,7 @@ form.call-form {
 }
 
 form.call-form .cross {
-    background-image: url(/images/closed-cross.png);
+    background-image: url(../images/closed-cross.png);
     width: 20px;
     height: 20px;
     position: absolute;
@@ -1255,25 +1255,14 @@ form.call-form .cross {
 }
 
 form.call-form .cross:hover {
-    background-image: url(/images/closed-cross.png);
+    background-image: url(../images/closed-cross.png);
     width: 20px;
     height: 20px;
     position: absolute;
     right: 10px;
     top: 10px;
     cursor: pointer;
-    background-position: -204px 0;
-}
-
-form.call-form .cross:hover {
-    background-image: url(/images/closed-cross.png);
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    cursor: pointer;
-    background-position: -204px 0;
+    background-position: -205px 1px;
 }
 
 form.call-form p {
@@ -1592,11 +1581,11 @@ header {
 
 .main-navigation-2 ul {
     position: absolute;
-    width: 425%;
-    top: -46px;
+    width: 436.5%;
+    top: -50px;
     left: 15px;
     background-color: #fff;
-    text-align: left;
+    text-align: center;
     height: 52px;
     display: none;
     z-index: 10
@@ -1606,6 +1595,7 @@ header {
     display: inline-block;
     padding: 0;
     padding-left: 14.4px;
+    font-size: 24px;
 }
 
 .bottom-line-header-2 input {
@@ -1636,7 +1626,7 @@ header {
     width: 160px;
     margin-top: 22px;
     color: #005dac;
-    margin-left: -70px;
+    margin-left: 0px;
     display: none;
 }
 
