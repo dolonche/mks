@@ -1536,7 +1536,7 @@ header {
 .main-navigation-2 li {
     display: inline-block;
     padding: 0;
-    padding-left: 30px;
+    padding-left: 13px;
 }
 
 .bottom-line-header-2 input {
@@ -1595,4 +1595,8 @@ header {
 
 .block {
     display: block;
+}
+
+.bottom-line-header-2 .cart {
+    text-align: right;
 }
