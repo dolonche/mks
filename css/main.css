@@ -1825,3 +1825,8 @@ header {
 .bottom-line-header-2 .cart {
     text-align: right;
 }
+.main-navigation-2 li:not(:first-child) {
+    padding-left: 20px;
+}
+
+
