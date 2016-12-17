@@ -53,6 +53,24 @@
             .main-navigation-2 li {
                 font-size: 20px;
             }
+            .main-navigation li:first-child {
+                padding-left: 0px;
+            }
+            .main-navigation li:not(:first-child) {
+                padding-left: 30px;
+            }
+            .main-navigation li:nth-child(3) {
+                padding-left: 25px;
+            }
+            .main-navigation li:nth-child(4) {
+                padding-left: 25px;
+            }
+            .main-navigation li:nth-child( 5) {
+                padding-left: 25px;
+            }
+            .main-navigation li:nth-child(6) {
+                padding-left: 25px;
+            }
         }
         /* Medium Devices, Desktops */
         
@@ -82,21 +100,51 @@
             .footer-item-img {
                 text-align: center !important;
             }
-            .logo {
-                text-align: center;
+            .logo img {
+                width: 188px !important;
             }
             .cart {
-                text-align: center;
+                text-align: left;
+                margin-top: 6px;
             }
-            .cog-img {
+            .cart span:first-of-type {
                 display: none;
             }
-            .cog p {
-                text-align: center !important;
+            .cart span:nth-of-type(2) {
+                margin-right: 7px;
+                margin-left: 5px;
+            }
+            .cart span:last-of-type {
+                display: inline-block;
+            }
+            .cog-img {
+                padding: 0 !important;
+                width: 40px;
+                margin-left: -15px;
+                margin-top: 5px;
+            }
+            .cog-img img {
+                margin: 0;
+                padding: 0 !important;
+            }
+            .cog p:first-of-type {
+                font-size: 21px !important;
+                margin-top: -13px !important;
+                letter-spacing: 0 !important;
+                padding-left: 32px !important;
+            }
+            .cog p:last-of-type {
+                font-size: 14px !important;
+                margin-top: -24px !important;
+                letter-spacing: 0 !important;
+                padding-left: 33px !important;
             }
             .cog {
                 margin-top: 10px;
                 margin-bottom: 10px;
+            }
+            .bottom-line-header {
+                margin-top: -5px;
             }
             .brands ul {
                 display: none;
@@ -138,6 +186,7 @@
             .bottom-line-header-2.fixed {
                 display: none !important
             }
+            /*
             .bottom-line-header {
                 position: relative;
             }
@@ -172,6 +221,39 @@
             }
             .main-navigation li:first-child {
                 padding-top: 20px;
+            }
+            */
+            .catalog-button {
+                width: 188px;
+                margin-top: -7px;
+            }
+            .catalog-button p {
+                font-size: 21px;
+                margin-left: 6px;
+                padding: 0;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .main-navigation {
+                margin-left: -50px;
+            }
+            .main-navigation li:not(:first-child) {
+                padding-left: 3px;
+            }
+            .main-navigation ul li:last-child {
+                padding-right: 0;
+            }
+            .main-navigation ul li:nth-child(3) {
+                padding-left: 7px;
+            }
+            .main-navigation ul li:nth-child(4) {
+                padding-left: 12px;
+            }
+            .main-navigation ul li:nth-child(5) {
+                padding-left: 7px;
+            }
+            .main-navigation ul li:first-child {
+                padding-left: 17px;
             }
         }
         /* Small Devices, Tablets */
