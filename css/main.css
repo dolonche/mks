@@ -357,6 +357,7 @@ hr {
 .main-navigation li:nth-child(4) {
     padding-left: 58px;
 }
+}
 
 .main-navigation li:nth-child( 5) {
     padding-left: 42px;
@@ -682,7 +683,7 @@ footer a {
     letter-spacing: 1px;
 }
 
-footer .footer-top .col-md-3.col-sm-3 ul {
+footer .footer-top .col-md-3.col-sm-9 ul {
     padding-left: 20px;
 }
 
@@ -728,12 +729,14 @@ footer .col-md-2.col-sm-1 {
     padding-left: 35px
 }
 .col-md-2.col-sm-push-1 .footer-item{
-    margin-left: 22px;
+    margin-left: 2px;
 }
 footer a:hover {
     text-decoration: underline
 }
-
+footer .col-md-3.col- li{
+    padding-left: 19px;
+}
 .bottom-footer .col-md-2 p {
     text-align: center;
     padding-left: 25px;
@@ -1793,7 +1796,9 @@ header {
     font-family: "Akrobat-Bold";
     display: none;
 }
-
+  .right-column-phone{
+                margin-top: 0px;
+            }
 .cart-2 {
     width: 200px;
     margin-left: 50px;

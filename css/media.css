@@ -71,6 +71,9 @@
             .main-navigation li:nth-child(6) {
                 padding-left: 25px;
             }
+            .right-column-phone {
+                margin-top: 0px;
+            }
         }
         /* Medium Devices, Desktops */
         
@@ -260,7 +263,7 @@
             .bottom-line-header {
                 margin-bottom: -10px;
             }
-            footer-item{
+            footer-item {
                 padding: 0 !important;
             }
         }
@@ -342,22 +345,55 @@
             }
             .main-navigation li a {
                 padding: 10px;
-                padding-left: 30px;
+                padding-left: 45px;
             }
-            .main-navigation li:last-child {
-                padding-bottom: 20px;
+            .main-navigation ul:last-of-type li:last-child {
+                padding-bottom: 10px !important;
             }
             .main-navigation li:first-child {
                 padding-top: 20px;
             }
-            .cog{
+            .main-navigation ul:first-of-type {
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+            .main-navigation ul:first-of-type li:first-child a {
+                padding-left: 24px;
+                color: #005dac
+            }
+            .cog {
                 display: none;
             }
-            .cart{
+            .cart {
                 text-align: right;
             }
-            .main-catalog{
-                width: 174.6%;
+            .main-catalog {
+                width: 100%;
+            }
+            .footer-img img {
+                display: inline-block !important;
+                margin: 0 !important;
+            }
+            .footer-img {
+                text-align: center !important;
+            }
+            .search-down {
+                margin-top: -5px;
+            }
+            .search-down button {
+                margin-top: -32px;
+            }
+            .bottom-footer p {
+                text-align: center;
+            }
+            .catalog-button {
+                width: 100%;
+            }
+            .right-column-phone {
+                margin-top: 0px;
+            }
+            .main-navigation {
+                margin-left: -37%;
             }
         }
         
@@ -520,11 +556,56 @@
             }
             .catalog-button p {
                 margin-left: 0px;
+                font-size: 18px !important;
                 padding-left: 0;
                 padding-right: 0;
             }
             .top-line-header .right-column-phone span:first-child::after {
                 display: none;
+            }
+            .top-line-header .right-column-phone {
+                float: right;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .top-line-header .left-column {
+                float: left;
+                padding: 0;
+                padding-top: 5px;
+                margin: 0 !important;
+                text-align: left;
+                font-size: 14px
+            }
+            .top-line-header .right-column-phone span:last-of-type {
+                display: none !important;
+            }
+            .top-line-header .right-column-phone span {
+                font-size: 21px;
+            }
+            .top-line-header .left-column span {}
+            .top-line-header .left-column span a {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .top-line-header .left-column span:last-of-type a {
+                padding-left: 15px !IMPORTANT;
+            }
+            .middle-line-header .logo img {
+                width: 130px !important;
+            }
+            .cart {
+                margin-top: -0px;
+                margin-bottom: 34px;
+                `
+            }
+            .cart img {
+                padding-left: 0;
+                padding-right: 0;
+                width: 38px !important;
+                margin-left: -43px !important;
+            }
+            .cart span a {
+                margin: 0 !important;
             }
         }
         
@@ -572,6 +653,9 @@
             .type-of-delivery-wrapper input[type="radio"]:last-of-type + label {
                 margin-left: 0px;
             }
+            body {
+                overflow-x: hidden;
+            }
         }
         /* Custom, iPhone Retina */
         
@@ -583,18 +667,24 @@
                 font-size: 13.489999px
             }
             .mini-menu {
-                width: 160%;
-                margin-left: -20px;
+                width: 100%;
+                margin-left: 0px !important;
                 margin-top: 18px;
+            }
+            .intro a {
+                margin-top: -60px;
+            }
+            .mini-menu {
+                margin-top: 7px;
             }
         }
         
         @media only screen and (max-width: 320px) {
+            body {
+                overflow-x: hidden;
+            }
             .newsletter p {
                 font-size: 14px
-            }
-            .cog p {
-                font-size: 14px !important;
             }
             /*
     .main-navigation li {
@@ -622,13 +712,9 @@
             .catalog-button p {
                 font-size: 11.68888px
             }
-            .top-line-header .left-column span:last-child a {
-                margin-left: 6px;
-            }
+            .top-line-header .left-column span:last-child a {}
             .catalog-items .left,
-            .catalog-items .right {
-                font-size: 13.489999px
-            }
+            .catalog-items .right {}
             .quote p {
                 padding: 0px 0px;
                 padding-left: 10px;
@@ -641,28 +727,72 @@
                 margin-left: 1px;
             }
             .mini-menu {
-                width: 160%;
+                width: 100%;
                 margin-left: -20px;
                 margin-top: 16px;
             }
-            .top-line-header .left-column,
             .top-line-header .right-column-phone {
-                float: none;
-                text-align: center;
+                float: right;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .top-line-header .left-column {
+                float: left;
+                padding: 0;
+                padding-top: 5px;
+                margin: 0 !important;
+                text-align: left;
+                font-size: 14px
             }
             .top-line-header .right-column-phone span:last-of-type {
-                display: none;
+                display: none !important;
             }
-            .top-line-header .left-column span {
-                display: block;
-                text-align: center;
+            .top-line-header .right-column-phone span {
+                font-size: 21px;
             }
+            .top-line-header .left-column span {}
             .top-line-header .left-column span a {
                 padding: 0 !important;
                 margin: 0 !important;
             }
+            .top-line-header .left-column span:last-of-type a {
+                padding-left: 15px !IMPORTANT;
+            }
             .middle-line-header .logo img {
-                width: 208px;
+                width: 130px !important;
+            }
+            .cart {
+                margin-top: -0px;
+                margin-bottom: 34px;
+                `
+            }
+            .cart img {
+                padding-left: 0;
+                padding-right: 0;
+                width: 38px !important;
+                margin-left: -43px !important;
+            }
+            .cart span a {
+                margin: 0 !important;
+            }
+            .catalog-button {
+                width: 182px !important;
+            }
+            .mini-menu {
+                margin-top: 7px;
+            }
+            .intro a {
+                margin-top: -60px;
+            }
+        }
+        
+        @media only screen and (max-width: 317px) {
+            .cart span:last-of-type {
+                display: none !important;
+            }
+            .right-column-phone span {
+                font-size: 18px !important;
+                margin-top: 2px;
             }
         }
         /*==========  Mobile First Method  ==========*/
