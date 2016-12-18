@@ -682,7 +682,7 @@ footer a {
     letter-spacing: 1px;
 }
 
-footer .footer-top .col-md-3.col-sm-9 ul {
+footer .footer-top .col-md-3.col-sm-3 ul {
     padding-left: 20px;
 }
 
@@ -727,7 +727,9 @@ footer .col-md-1.hidden-xs {
 footer .col-md-2.col-sm-1 {
     padding-left: 35px
 }
-
+.col-md-2.col-sm-push-1 .footer-item{
+    margin-left: 22px;
+}
 footer a:hover {
     text-decoration: underline
 }

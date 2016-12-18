@@ -75,6 +75,7 @@
         /* Medium Devices, Desktops */
         
         @media only screen and (max-width: 992px) {
+            /*
             .catalog-2-level {
                 left: 00px;
                 top: 50px;
@@ -84,6 +85,7 @@
             .arrow::after {
                 transform: rotate(135deg) !important
             }
+*/
             .form button {
                 top: 0;
             }
@@ -255,10 +257,25 @@
             .main-navigation ul li:first-child {
                 padding-left: 17px;
             }
+            .bottom-line-header {
+                margin-bottom: -10px;
+            }
+            footer-item{
+                padding: 0 !important;
+            }
         }
         /* Small Devices, Tablets */
         
         @media only screen and (max-width: 768px) {
+            .catalog-2-level {
+                left: 00px;
+                top: 50px;
+                z-index: 100;
+                border-top: 2px solid white
+            }
+            .arrow::after {
+                transform: rotate(135deg) !important
+            }
             .container-fluid h1 {
                 font-size: 28px;
             }
@@ -266,7 +283,7 @@
                 font-size: 15px
             }
             .main-navigation li {
-                padding: 0 10px;
+                padding: 0 10px !important;
             }
             .type-of-pay-wrapper input[type="radio"]:last-of-type + label {
                 margin-left: 10px;
@@ -297,6 +314,50 @@
                 padding: 30px 0px;
                 padding-left: 10px;
                 font-size: 18px
+            }
+            .bottom-line-header {
+                position: relative;
+            }
+            .mini-menu {
+                margin-top: 10px;
+                cursor: pointer;
+            }
+            .main-navigation-wrapper {
+                position: absolute;
+                width: 210%;
+                margin-left: -123%;
+                z-index: 10;
+                margin-top: 11px;
+            }
+            .main-navigation ul {
+                background-color: white;
+                text-align: left;
+                margin-top: -10px;
+                box-shadow: 0px 7px 10px 2px #ccc;
+                display: none;
+            }
+            .main-navigation li {
+                display: block;
+                font-size: 18px;
+            }
+            .main-navigation li a {
+                padding: 10px;
+                padding-left: 30px;
+            }
+            .main-navigation li:last-child {
+                padding-bottom: 20px;
+            }
+            .main-navigation li:first-child {
+                padding-top: 20px;
+            }
+            .cog{
+                display: none;
+            }
+            .cart{
+                text-align: right;
+            }
+            .main-catalog{
+                width: 174.6%;
             }
         }
         
