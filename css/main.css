@@ -1152,7 +1152,7 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
 }
 
 .product-information {
-    margin-bottom: 300px;
+    margin-bottom: 00px;
 }
 
 .product-information h2 {
@@ -1172,6 +1172,7 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
 
 .pictures-product {
     margin-top: 40px;
+    margin-bottom: 200px;
 }
 
 .pictures-product img {
@@ -1275,7 +1276,9 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
     left: 0;
     margin-bottom: -20px;
 }
-
+.brands-list{
+    margin-top: -40px !important;
+}
 .brands {
     margin-top: 32px;
 }
