@@ -277,7 +277,8 @@
                 border-top: 2px solid white
             }
             .arrow::after {
-                transform: rotate(135deg) !important
+                transform: rotate(135deg) !important;
+                left: 10px;
             }
             .container-fluid h1 {
                 font-size: 28px;
@@ -394,6 +395,9 @@
             }
             .main-navigation {
                 margin-left: -37%;
+            }
+            .intro{
+                margin-top: -30px;
             }
         }
         
@@ -607,6 +611,7 @@
             .cart span a {
                 margin: 0 !important;
             }
+            
         }
         
         @media only screen and (max-width: 369px) {
@@ -647,6 +652,7 @@
                 padding-left: 0;
                 padding-right: 0;
             }
+
         }
         
         @media only screen and (max-width: 450px) {
@@ -656,6 +662,7 @@
             body {
                 overflow-x: hidden;
             }
+            
         }
         /* Custom, iPhone Retina */
         
@@ -783,6 +790,9 @@
             }
             .intro a {
                 margin-top: -60px;
+            }
+              .arrow::after {
+                left: 88% ;
             }
         }
         
