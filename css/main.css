@@ -90,7 +90,7 @@ ul {
 	opacity: 0.5
 }
 
-.phone-number {
+.phone-number a {
 	color: #005dac;
 	font-size: 24px;
 	font-weight: bolder
