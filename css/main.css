@@ -593,14 +593,16 @@ article p {
 	letter-spacing: 1px;
 	line-height: 26px;
 }
+article a {
+	color: #333f48;
+}
 article h3 a {
 	font-size: 24px;
 	line-height: 30px;
 	color: #333f48;
 	letter-spacing: 1px
 }
-article h3 a:hover {
-	font-size: 25px;
+article a:hover {
 	color: #005dac
 }
 article h3 a:active {
