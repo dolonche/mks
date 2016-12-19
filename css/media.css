@@ -74,6 +74,27 @@
             .right-column-phone {
                 margin-top: 0px;
             }
+          .news-button{
+                width: 188px;
+                margin-left: -1px;
+                margin-top: 61px;
+            }
+          .number-phone-2{
+            margin-left: 0px;
+          }
+          .cart-2{
+            margin-left: 10px;
+          }
+          .main-navigation-wrapper-2{
+            margin-left: 45px;
+          }
+          .search-2{
+            margin-left: -15px;
+          }
+          .main-navigation-2 ul{
+            left: 70px;
+            margin-top: 3px;
+          }
         }
         /* Medium Devices, Desktops */
         
@@ -101,7 +122,7 @@
             .footer-item-img {
                 text-align: center !important;
             }
-            .logo img {
+            .logo  img{
                 width: 188px !important;
             }
             .cart {
@@ -404,6 +425,9 @@
             .intro{
                 margin-top: -30px;
             }
+          .middle-line-header{
+            margin-bottom: 30px;
+          }
         }
         
         @media only screen and (max-width: 600px) {
