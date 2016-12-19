@@ -44,7 +44,8 @@ cross.addEventListener("click", function (event) {
 //});
 var i = 0;
 var image = document.getElementById("menu-cross");
-var imgs = new Array('images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png'); //Добавте свои картинки через запятую
+var imgs = new Array('images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png', 'images/animation-header-menu.png', 'images/closed.png');
+
 function imgsrc() {
 	i++;
 	image.src = imgs[i];
