@@ -667,6 +667,13 @@
         	.cart span a {
         		margin: 0 !important;
         	}
+        	.bottom-line-header {
+        		margin-top: -50px;
+        	}
+        	.middle-line-header {
+        		height: 40px;
+        		margin-bottom: -10px;
+        	}
         }
         
         @media only screen and (max-width: 369px) {
