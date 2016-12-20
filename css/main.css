@@ -1531,7 +1531,6 @@ header {
 .main-navigation-wrapper-2 img {
 	cursor: pointer
 }
-
 .main-navigation-wrapper-2 img {
 	margin-top: -8px;
 }
@@ -1631,4 +1630,32 @@ header {
 }
 .main-navigation-2 li:not(:first-child) {
 	padding-left: 20px;
+}
+.contacts-main h2 {
+	position: relative
+}
+.contacts-main h2::after {
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 2px;
+	background-color: #40C8F4;
+	bottom: 0;
+	left: 0;
+	margin-bottom: -20px;
+}
+iframe {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.contacts-main .col-md-9 p:first-of-type {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.contacts-main .col-md-9 span:first-of-type {
+	margin-bottom: 30px;
+	display: block;
+}
+.contacts-main .col-md-9 p:last-of-type {
+	line-height: 40px;
 }
