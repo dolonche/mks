@@ -1631,6 +1631,9 @@ header {
 .main-navigation-2 li:not(:first-child) {
 	padding-left: 20px;
 }
+.contacts-main{
+	font-family: "Akrobat-Regular", sans-serif;
+}
 .contacts-main h2 {
 	position: relative
 }
@@ -1647,10 +1650,12 @@ header {
 iframe {
 	width: 100%;
 	margin-bottom: 40px;
+	height: 750px;
 }
 .contacts-main .col-md-9 p:first-of-type {
 	margin-top: 70px;
 	margin-bottom: 50px;
+	line-height: 26px;
 }
 .contacts-main .col-md-9 span:first-of-type {
 	margin-bottom: 30px;
@@ -1658,4 +1663,8 @@ iframe {
 }
 .contacts-main .col-md-9 p:last-of-type {
 	line-height: 40px;
+	line-height: 26px;
+}
+.contacts-main{
+	margin-top: -50px;
 }

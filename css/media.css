@@ -291,16 +291,19 @@
         		margin-left: -1px;
         		margin-top: 61px;
         	}
-             .articles-about{
-                border-bottom: none !important
-            }
-            .articles-about:nth-of-type(2) img{
-                margin-top: -37px;
-                margin-bottom: 30px
-            }
-            .articles-about:nth-of-type(3) img{
-                margin-top: -55px
-            }
+        	.articles-about {
+        		border-bottom: none !important
+        	}
+        	.articles-about:nth-of-type(2) img {
+        		margin-top: -37px;
+        		margin-bottom: 30px
+        	}
+        	.articles-about:nth-of-type(3) img {
+        		margin-top: -55px
+        	}
+        	.contacts-main {
+        		margin-top: 10px !important;
+        	}
         }
         /* Small Devices, Tablets */
         
@@ -445,6 +448,12 @@
         	}
         	.middle-line-header {
         		margin-bottom: 30px;
+        	}
+        	iframe {
+        		display: none;
+        	}
+        	.contacts-main {
+        		margin-top: -50px !important;
         	}
         }
         
@@ -617,7 +626,7 @@
         	.top-line-header .right-column-phone {
         		float: right;
         		padding: 0 !important;
-                margin-top: -4px
+        		margin-top: -4px
         	}
         	.top-line-header .left-column {
         		float: left;
@@ -658,7 +667,6 @@
         	.cart span a {
         		margin: 0 !important;
         	}
-            
         }
         
         @media only screen and (max-width: 369px) {
