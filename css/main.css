@@ -1528,10 +1528,10 @@ header {
 	display: none;
 	margin-left: 22px;
 }
-.main-navigation-wrapper-2 img,
-.main-navigation-wrapper-2 span {
+.main-navigation-wrapper-2 img {
 	cursor: pointer
 }
+
 .main-navigation-wrapper-2 img {
 	margin-top: -8px;
 }
