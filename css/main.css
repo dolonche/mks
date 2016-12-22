@@ -11,7 +11,10 @@
 	padding-left: 15px;
 	opacity: 0.6
 }
-
+.request-call-form *::-webkit-input-placeholder{
+    text-align: center;
+    padding-left: 0;
+}
 *::-moz-placeholder {
 	font-size: 14px;
 	color: #333f48;
@@ -196,7 +199,9 @@ hr {
     margin-left: -10px;
 }
 */
-
+.catalog-items .col-md-4{
+    margin-top: 30px;
+}
 .catalog,
 .main-navigation {
 	margin-top: 10px;
