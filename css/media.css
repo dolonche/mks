@@ -98,6 +98,9 @@
             .inner-catalog-2 ul {
                 width: 123.6%;
             }
+            footer .col-md-2:first-of-type .footer-item span:first-of-type a {
+                font-size: 19px !important;
+            }
         }
         /* Medium Devices, Desktops */
         
@@ -182,9 +185,7 @@
             .brands ul li a {
                 color: white
             }
-            .brands{
-                
-            }
+            .brands {}
             .brands ul {
                 position: absolute;
                 width: %;
@@ -305,6 +306,13 @@
             }
             .contacts-main {
                 margin-top: 10px !important;
+            }
+            footer .col-md-2:first-of-type .footer-item span:first-of-type a {
+                font-size: 22px !important;
+                padding-top: 5px;
+            }
+            footer .col-md-2:first-of-type .footer-item span:last-of-type {
+                padding-bottom: 20px;
             }
         }
         /* Small Devices, Tablets */
