@@ -1,42 +1,45 @@
 *::-webkit-input-placeholder {
-    font-size: 14px;
+    font-size: 18px;
     color: #333f48;
     padding-left: 15px;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 *:-moz-placeholder {
-    font-size: 14px;
+    font-size: 17px;
     color: #333f48;
     padding-left: 15px;
-    opacity: 0.6
+    opacity: 0.5
 }
 
 .request-call-form *::-webkit-input-placeholder {
     text-align: center;
     padding-left: 0;
+    font-size: 14px;
 }
 
 .right *::-webkit-input-placeholder {
     padding: 0;
+    font-size: 14px;
 }
 
 .number-of-product *::-webkit-input-placeholder {
     padding: 0;
+    font-size: 14px;
 }
 
 *::-moz-placeholder {
-    font-size: 14px;
+    font-size: 18px;
     color: #333f48;
     padding-left: 15px;
-    opacity: 0.6
+    opacity: 0.5
 }
 
 *:-ms-input-placeholder {
-    font-size: 14px;
+    font-size: 18px;
     color: #333f48;
     padding-left: 15px;
-    opacity: 0.6
+    opacity: 0.5
 }
 
 body input:focus:required:invalid,
@@ -56,7 +59,7 @@ ul {
 }
 
 .top-line-header {
-    margin-top: 10px;
+    margin-top: 2px;
     position: relative;
     font-family: "Akrobat-Light"
 }
@@ -152,12 +155,13 @@ hr {
     text-align: left;
     font-family: "Akrobat-ExtraBold", sans-serif;
     padding-left: 94px;
+    font-weight: lighter;
     margin-top: 2px;
     color: #005dac;
 }
 
 .middle-line-header .cog p:last-of-type {
-    font-size: 16px;
+    font-size: 16.7px;
     color: #333f48;
     text-align: left;
     opacity: 0.5;
@@ -364,28 +368,28 @@ hr {
 }
 
 .main-navigation li:not(:first-child) {
-    padding-left: 38px;
+    padding-left: 40px;
 }
 
 .main-navigation li:nth-child(3) {
-    padding-left: 47px;
+    padding-left: 49px;
 }
 
 .main-navigation li:nth-child(4) {
-    padding-left: 58px;
+    padding-left: 60px;
 }
 
 
 }
 .main-navigation li:nth-child( 5) {
-    padding-left: 42px;
+    padding-left: 43px;
 }
 .main-navigation li:nth-child(6) {
-    padding-left: 45px;
+    padding-left: 48px;
 }
 .main-navigation li a {
     color: #333f48;
-    font-family: "Akrobat-SemiBold", sans-serif
+    font-family: "Akrobat-Regular", sans-serif
 }
 .main-navigation li a:hover {
     color: #005dac;
