@@ -687,13 +687,14 @@
             .catalog-button img {
                 padding-left: 0;
                 padding-right: 0;
-                margin-left: 5px;
+                margin-left: 10px;
             }
             .catalog-button p {
                 margin-left: 0px;
                 font-size: 18px !important;
                 padding-left: 0;
                 padding-right: 0;
+                margin-left: 15px;
             }
             .top-line-header {
                 margin-top: 10px;
