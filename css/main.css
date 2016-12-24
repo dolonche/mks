@@ -307,7 +307,7 @@ hr {
 
 .inner-catalog ul li {
     padding: 10px 0px;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 .inner-catalog ul a {
@@ -1544,7 +1544,7 @@ header {
 }
 .inner-catalog-2 ul li {
     padding: 10px 0px;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 .inner-catalog-2 ul a {
     color: white;
@@ -1602,7 +1602,7 @@ header {
 }
 .main-navigation-2 li a {
     color: #333f48;
-    font-family: "Akrobat-SemiBold", sans-serif
+    font-family: "Akrobat-Regular", sans-serif
 }
 .main-navigation-2 li a:hover {
     color: #005dac;
@@ -1696,7 +1696,7 @@ header {
 .search-2 {
     position: relative;
     display: none;
-    margin-top: 20px;
+    margin-top: 22px;
     cursor: pointer;
 }
 .search-2 span {
@@ -1712,7 +1712,7 @@ header {
 .search-2:hover i {
     color: #005dac
 }
-.search-2:hover span{
+.search-2:hover span {
     color: #005dac
 }
 .search-2 i:hover {
@@ -1720,7 +1720,7 @@ header {
 }
 .number-phone-2 {
     width: 160px;
-    margin-top: 12px;
+    margin-top: 16px;
     color: #005dac;
     margin-left: 70px;
     font-size: 24px;
@@ -1865,6 +1865,42 @@ iframe {
     -webkit-transition-delay: 0, 0.3s;
     transition-delay: 0, 0.3s;
 }
-.call-form input, .call-form-foot input{
+.call-form,
+.call-form-foot input {
     text-align: center;
+}
+.search-down .form {
+    position: relative
+}
+.search-down i {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+.search-down input {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box
+}
+.search-down *::-webkit-input-placeholder {
+    padding-left: 0;
+}
+.form *::-webkit-input-placeholder {
+    padding-left: 0;
+}
+.bottom-search .form {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.form input {
+    padding-left: 15px;
+    box-sizing: border-box;
+    height: 41px;
+}
+.form button {
+    margin-right: 4px;
+}
+.bottom-search {
+    background-color: #fff;
+    border-top: 1px solid #ccc
 }
