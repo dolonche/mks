@@ -17,8 +17,18 @@ $(document).ready(function () {
 	$(".mini-menu").click(function () {
 		$(".main-navigation ul").slideToggle();
 	})
-	$(".main-navigation-wrapper-2 img").click(function () {
+	$(".main-navigation-wrapper-2").click(function () {
 		$(".main-navigation-2 ul").animate({
+			width: 'toggle'
+		});
+	})
+    $(".search-2 span").click(function () {
+		$(".search-2 input").animate({
+			width: 'toggle'
+		});
+	})
+       $(".search-2 i").click(function () {
+		$(".search-2 input").animate({
 			width: 'toggle'
 		});
 	})
@@ -43,6 +53,7 @@ $(document).ready(function () {
 			$('.main-navigation-2 li').removeClass('block');
 		}
 	});
+
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
@@ -127,3 +138,22 @@ $(document).ready(function () {
 		return false;
 	});
 });
+(function() {
+ 
+  "use strict";
+ 
+  var toggles = document.querySelectorAll(".main-navigation-wrapper-2");
+ 
+  for (var i = toggles.length - 1; i >= 0; i--) {
+    var toggle = toggles[i];
+    toggleHandler(toggle);
+  };
+ 
+  function toggleHandler(toggle) {
+    toggle.addEventListener( "click", function(e) {
+      e.preventDefault();
+      (this.classList.contains("active") === true) ? this.classList.remove("active") : this.classList.add("active");
+    });
+  }
+ 
+})();

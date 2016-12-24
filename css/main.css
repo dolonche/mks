@@ -119,7 +119,8 @@ ul {
 }
 
 .right-column-phone span:first-child {
-    position: relative
+    position: relative;
+    margin-right: 20px;
 }
 
 .top-line-header .right-column-phone span:first-child::after {
@@ -128,7 +129,7 @@ ul {
     height: 18px;
     width: 1px;
     background-color: #999FA3;
-    right: 5px;
+    right: -5px;
     top: 50%;
     margin-top: -9px;
 }
@@ -257,9 +258,9 @@ hr {
 }
 
 .catalog-button p {
-    font-size: 24px;
+    font-size: 22px;
     padding-left: 28px;
-    padding-top: 2px;
+    padding-top: 4px;
 }
 
 .catalog-button img {
@@ -1416,8 +1417,8 @@ form.call-form-foot {
 .animated-form-foot {
     -webkit-animation-name: animate-form-foot;
     animation-name: animate-form-foot;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
     z-index: 100;
     display: block !important;
 }
@@ -1638,19 +1639,22 @@ header {
     padding-top: 1px;
 }
 .main-navigation-wrapper-2 {
-    margin-top: 10px;
+    margin-top: 12px;
     display: none;
-    margin-left: 22px;
+    margin-left: 0px;
 }
 .main-navigation-wrapper-2 img {
-    cursor: pointer
+    cursor: pointer;
+    margin-right: 5px;
 }
 .main-navigation-wrapper-2 img {
     margin-top: -8px;
 }
-.main-navigation-wrapper-2 span {
+.main-navigation-wrapper-2 span:last-of-type {
     font-size: 26px;
     font-family: "Akrobat-Bold";
+    padding-left: 22px;
+    cursor: pointer
 }
 .main-navigation-2 {
     position: relative;
@@ -1662,9 +1666,9 @@ header {
     position: absolute;
     width: 484.2%;
     top: -56px;
-    left: 46px;
+    left: 23px;
     background-color: #fff;
-    text-align: center;
+    text-align: left;
     height: 52px;
     display: none;
     z-index: 10
@@ -1676,29 +1680,43 @@ header {
     font-size: 24px;
 }
 .bottom-line-header-2 input {
-    margin-top: 15px;
     margin-left: 20px;
-    border: none;
-    width: auto;
+    position: absolute;
+    width: 280%;
+    top: -10px;
+    left: 100%;
+    height: 40px;
+    z-index: 1;
+    border: 2px solid #CCCCCC;
     outline: none;
     cursor: pointer;
-    letter-spacing: 1px;
-    transition: 1s all
+    background-color: #fff;
+    display: none;
 }
 .search-2 {
     position: relative;
     display: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.search-2 span {
+    letter-spacing: 2px;
+    color: #cccccc;
+    font-family: "Akrobat-Light";
 }
 .search-2 i {
     position: absolute;
-    top: 22px;
-    right: 0px;
+    top: 5px;
+    right: 10px;
+}
+.search-2:hover i {
+    color: #005dac
+}
+.search-2:hover span{
+    color: #005dac
 }
 .search-2 i:hover {
     color: #005dac
-}
-.bottom-line-header-2 input:focus {
-    transform: scaleX(1.4)
 }
 .number-phone-2 {
     width: 160px;
@@ -1781,4 +1799,72 @@ iframe {
 }
 .contacts-main {
     margin-top: -50px;
+}
+.main-navigation-wrapper-2 span:first-child {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    right: 18px;
+    height: 2px;
+    width: 15px;
+    background: black;
+}
+.main-navigation-wrapper-2 span:first-child::before,
+.main-navigation-wrapper-2 span:first-child::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    content: "";
+}
+.main-navigation-wrapper-2 span:first-child::before {
+    top: -8px;
+}
+.main-navigation-wrapper-2 span:first-child::after {
+    bottom: -8px;
+}
+.main-navigation-wrapper-2 span:first-child {
+    -webkit-transition: background 0 0.3s;
+    transition: background 0 0.3s;
+}
+.main-navigation-wrapper-2 span:first-child::before,
+.main-navigation-wrapper-2 span:first-child::after {
+    -webkit-transition-duration: 0.3s, 0.3s;
+    transition-duration: 0.3s, 0.3s;
+    -webkit-transition-delay: 0.3s, 0;
+    transition-delay: 0.3s, 0;
+}
+.main-navigation-wrapper-2 span:first-child::before {
+    -webkit-transition-property: top, -webkit-transform;
+    transition-property: top, transform;
+}
+.main-navigation-wrapper-2 span:first-child::after {
+    -webkit-transition-property: bottom, -webkit-transform;
+    transition-property: bottom, transform;
+}
+.main-navigation-wrapper-2.active span:first-child {
+    background: none;
+}
+.main-navigation-wrapper-2.active span:first-child::before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.main-navigation-wrapper-2.active span:first-child::after {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.main-navigation-wrapper-2.active span:first-child::before,
+.main-navigation-wrapper-2.active span:first-child::after {
+    -webkit-transition-delay: 0, 0.3s;
+    transition-delay: 0, 0.3s;
+}
+.call-form input, .call-form-foot input{
+    text-align: center;
 }

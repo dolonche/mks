@@ -91,6 +91,12 @@
             .main-navigation-wrapper-2 {
                 margin-left: 45px;
             }
+            .main-navigation-2 ul {
+                left: 60px !important;
+            }
+            .main-navigation-wrapper-2 span:first-child {
+                left: 60px;
+            }
             .search-2 {
                 margin-left: -15px;
             }
@@ -103,6 +109,9 @@
             }
             footer .col-md-2:first-of-type .footer-item span:first-of-type a {
                 font-size: 19px !important;
+            }
+            .search-2 i {
+                right: 0px;
             }
         }
         /* Medium Devices, Desktops */
@@ -658,6 +667,13 @@
                 margin-left: 0px;
                 font-size: 18px !important;
                 padding-left: 0;
+                padding-right: 0;
+            }
+            .top-line-header {
+                margin-top: 10px;
+            }
+            .top-line-header .right-column-phone span:first-child {
+                margin-right: 0;
                 padding-right: 0;
             }
             .top-line-header .right-column-phone span:first-child::after {
