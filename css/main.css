@@ -93,7 +93,7 @@ ul {
 }
 
 .right-column-phone span:first-child {
-    padding-right: 10px;
+    padding-right: 3px;
 }
 
 .top-line-header .right-column span:first-child a {
@@ -1656,7 +1656,7 @@ header {
     margin-top: -2px;
 }
 .main-navigation-wrapper-2 {
-    margin-top: 10px;
+    margin-top: 13px;
     display: none;
     margin-left: 0px;
 }
@@ -1671,10 +1671,10 @@ header {
 }
 */
 .main-navigation-wrapper-2 span:last-of-type {
-    font-size: 26px;
+    font-size: 24px;
     font-family: "Akrobat-Regular";
     padding-left: 28px;
-    cursor: pointer
+    cursor: pointer;
 }
 .main-navigation-2 {
     position: relative;
@@ -1758,8 +1758,7 @@ header {
     color: #005dac;
     margin-left: 70px;
     font-size: 24px;
-    font-weight: bold;
-    font-family: "Akrobat-Bold";
+    font-family: "Akrobat-Regular";
     display: none;
 }
 .right-column-phone {
@@ -1789,6 +1788,7 @@ header {
 }
 .cart-2 span:nth-of-type(3) {
     display: inline-block !important;
+    font-family: "Arial", sans-serif;
 }
 .block {
     display: block;
