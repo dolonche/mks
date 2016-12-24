@@ -1313,7 +1313,7 @@ form.call-form-foot {
     margin-left: 0px;
     border: 1px solid #d9dfe3;
 }
-form.call-form-foot .cross {
+form.call-form-foot .cross-foot {
     background-image: url(../images/closed-cross.png);
     width: 20px;
     height: 20px;
@@ -1324,7 +1324,7 @@ form.call-form-foot .cross {
     -webkit-transition: 0.3s all;
     transition: 0.3s all
 }
-form.call-form-foot .cross:hover {
+form.call-form-foot .cross-foot:hover {
     background-image: url(../images/closed-cross.png);
     width: 20px;
     height: 20px;
@@ -1477,6 +1477,10 @@ form.call-form-foot {
 }
 .close-form {
     display: none !important;
+}
+.close-form-foot {
+    display: none !important;
+    z-index: -100 !important
 }
 footer .col-sm-2:first-of-type {}
 .bottom-line-header-2.fixed {
