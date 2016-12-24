@@ -321,7 +321,7 @@
         /* Small Devices, Tablets */
         
         @media only screen and (max-width: 768px) {
-            body{
+            body {
                 overflow-x: hidden
             }
             .catalog-2-level {
@@ -411,7 +411,7 @@
                 padding: 10px;
                 padding-left: 30px;
             }
-             .main-navigation {
+            .main-navigation {
                 margin-left: -30px !important;
             }
             .main-navigation ul:last-of-type li:last-child {
@@ -474,7 +474,7 @@
             .contacts-main {
                 margin-top: -50px !important;
             }
-            .mini-menu{
+            .mini-menu {
                 text-align: right;
             }
         }
@@ -497,20 +497,21 @@
                 display: none;
             }
         }
-@media only screen and (max-width: 621px){
-         .main-navigation-wrapper {
+        
+        @media only screen and (max-width: 621px) {
+            .main-navigation-wrapper {
                 position: absolute;
                 width: 265%;
                 margin-left: -185%;
                 z-index: 10;
                 margin-top: 11px;
             }
-}
+        }
+        
         @media only screen and (max-width: 685px) {
             .type-of-pay-wrapper input[type="radio"]:last-of-type + label {
                 margin-left: 0px;
             }
-
         }
         
         @media only screen and (max-width: 550px) {
@@ -621,6 +622,14 @@
                 background-color: white;
                 width: 240px;
                 margin-left: -120px;
+            }
+            form.call-form-foot {
+                text-align: center;
+                display: none;
+                position: absolute;
+                background-color: white;
+                width: 240px;
+                margin-left: 60px;
             }
             .catalog-items .col-md-4 img {
                 width: 100%;
