@@ -12,6 +12,10 @@
     opacity: 0.5
 }
 
+.request-call-form input {
+    text-align: center;
+}
+
 .request-call-form *::-webkit-input-placeholder {
     text-align: center;
     padding-left: 0;
@@ -129,7 +133,7 @@ ul {
     height: 18px;
     width: 1px;
     background-color: #999FA3;
-    right: -5px;
+    right: -12px;
     top: 50%;
     margin-top: -9px;
 }
@@ -160,15 +164,16 @@ hr {
 .middle-line-header .cog p:first-of-type {
     font-size: 24px;
     text-align: left;
-    font-family: "Akrobat-ExtraBold", sans-serif;
+    font-family: "Akrobat-Regular", sans-serif;
     padding-left: 94px;
     font-weight: lighter;
     margin-top: 2px;
+    letter-spacing: 1px;
     color: #005dac;
 }
 
 .middle-line-header .cog p:last-of-type {
-    font-size: 16.7px;
+    font-size: 14.8px;
     color: #333f48;
     text-align: left;
     opacity: 0.5;
@@ -212,6 +217,10 @@ hr {
 .cart a:active {
     color: inherit;
     opacity: 0.5
+}
+
+.cart span:nth-of-type(4) {
+    font-family: "Arial", sans-serif;
 }
 
 
@@ -333,10 +342,12 @@ hr {
     top: 0;
     width: 100%;
     height: 100%;
+    background-color: #40C8F4 !important
 }
 
 .catalog-2-level ul {
     display: none;
+    background-color: #40C8F4
 }
 
 .catalog-2-level li {
@@ -351,6 +362,7 @@ hr {
     content: "";
     position: absolute;
     width: 5px;
+    display: none;
     height: 5px;
     border-top: 2px solid white;
     border-right: 2px solid white;
@@ -699,7 +711,7 @@ footer .col-md-1:last-of-type {
 footer .col-md-1:last-of-type img {
     padding-top: 10px;
     display: block;
-    margin-left: -18px;
+    margin-left: -23px;
 }
 footer .col-md-1.hidden-xs {
     padding: 0;
@@ -1566,6 +1578,7 @@ header {
     top: 0;
     width: 100%;
     height: 100%;
+    background-color: #40C8F4 !important
 }
 .catalog-2-level-2 ul {
     display: none;
@@ -1588,6 +1601,7 @@ header {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     right: 10px;
+    display: none;
 }
 .main-navigation-2 ul {
     font-size: 0;
@@ -1620,29 +1634,34 @@ header {
     position: relative;
     cursor: pointer;
     width: 263px;
+    height: 40px;
 }
 .catalog-button-2 p,
 .catalog-button-2 img {
     display: inline-block;
     color: white;
     margin: 0;
-    padding-top: 1px;
+    padding-top: 0px;
     padding-left: 16px;
     padding-bottom: 5px;
+    box-sizing: border-box;
 }
 .catalog-button-2 p {
     font-size: 24px;
+    height: 40px;
     padding-left: 28px;
     padding-top: 2px;
 }
 .catalog-button-2 img {
-    padding-top: 1px;
+    margin-top: -2px;
 }
 .main-navigation-wrapper-2 {
-    margin-top: 12px;
+    margin-top: 10px;
     display: none;
     margin-left: 0px;
 }
+
+/*
 .main-navigation-wrapper-2 img {
     cursor: pointer;
     margin-right: 5px;
@@ -1650,10 +1669,11 @@ header {
 .main-navigation-wrapper-2 img {
     margin-top: -8px;
 }
+*/
 .main-navigation-wrapper-2 span:last-of-type {
     font-size: 26px;
-    font-family: "Akrobat-Bold";
-    padding-left: 22px;
+    font-family: "Akrobat-Regular";
+    padding-left: 28px;
     cursor: pointer
 }
 .main-navigation-2 {
@@ -1664,8 +1684,9 @@ header {
 }
 .main-navigation-2 ul {
     position: absolute;
-    width: 484.2%;
-    top: -56px;
+    width: 499.2%;
+    top: -58px;
+    box-sizing: border-box;
     left: 23px;
     background-color: #fff;
     text-align: left;
@@ -1673,12 +1694,17 @@ header {
     display: none;
     z-index: 10
 }
-.main-navigation-2 li {
+.main-navigation-2 li:first-child a {
+    padding-left: 14px;
+}
+.main-navigation-2 li a {
     display: inline-block;
     padding: 0;
-    padding-left: 14.4px;
+    padding-left: 14px;
     font-size: 24px;
 }
+
+/*
 .bottom-line-header-2 input {
     margin-left: 20px;
     position: absolute;
@@ -1693,21 +1719,25 @@ header {
     background-color: #fff;
     display: none;
 }
+*/
 .search-2 {
     position: relative;
     display: none;
-    margin-top: 22px;
+    margin-top: 19px;
     cursor: pointer;
 }
+
+/*
 .search-2 span {
     letter-spacing: 2px;
     color: #cccccc;
     font-family: "Akrobat-Light";
 }
+*/
 .search-2 i {
     position: absolute;
     top: 5px;
-    right: 10px;
+    right: 30px;
 }
 .search-2:hover i {
     color: #005dac
@@ -1718,9 +1748,13 @@ header {
 .search-2 i:hover {
     color: #005dac
 }
+.search-2 span {
+    font-family: "Akrobat-Regular";
+    letter-spacing: 1px;
+}
 .number-phone-2 {
     width: 160px;
-    margin-top: 16px;
+    margin-top: 13px;
     color: #005dac;
     margin-left: 70px;
     font-size: 24px;
@@ -1748,11 +1782,13 @@ header {
     margin-left: 10px;
     margin-right: 0px;
 }
-.cart-2 span:last-of-type {
+.cart-2 span:nth-of-type(2) {
     color: inherit;
     background-color: transparent;
     padding: 0;
-    margin-right: -10px;
+}
+.cart-2 span:nth-of-type(3) {
+    display: inline-block !important;
 }
 .block {
     display: block;
@@ -1803,12 +1839,13 @@ iframe {
 .main-navigation-wrapper-2 span:first-child {
     display: block;
     position: absolute;
-    top: 30px;
+    top: 29px;
     left: 18px;
     right: 18px;
     height: 2px;
     width: 15px;
     background: black;
+    cursor: pointer
 }
 .main-navigation-wrapper-2 span:first-child::before,
 .main-navigation-wrapper-2 span:first-child::after {
@@ -1819,12 +1856,13 @@ iframe {
     height: 2px;
     background-color: #000;
     content: "";
+    cursor: pointer
 }
 .main-navigation-wrapper-2 span:first-child::before {
-    top: -8px;
+    top: -7px;
 }
 .main-navigation-wrapper-2 span:first-child::after {
-    bottom: -8px;
+    bottom: -7px;
 }
 .main-navigation-wrapper-2 span:first-child {
     -webkit-transition: background 0 0.3s;
