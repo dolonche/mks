@@ -2,10 +2,12 @@
 var form = document.querySelector(".call-form");
 var phone = document.querySelector("#phone-number");
 var cross = document.querySelector(".cross");
-var mainmenu = document.querySelector(".inner-catalog-2 a")
-var mainmenu0 = document.querySelector(".inner-catalog a")
+var mainmenu = document.querySelector(".inner-catalog-2 a");
+var mainmenu0 = document.querySelector(".inner-catalog a");
 	//var dateoff = document.querySelector("[name=departure]");
 var link = document.querySelector(".request-call");
+var footlink = document.querySelector(".request-call-foot");
+var footform = document.querySelector(".call-form-foot");
 mainmenu.addEventListener("click", function (event) {
 	event.preventDefault();
 });
@@ -34,6 +36,17 @@ form.addEventListener("submit", function (event) {
 });
 cross.addEventListener("click", function (event) {
 	form.classList.add("close-form");
+});
+footlink.addEventListener("click", function (event) {
+	event.preventDefault();
+});
+footlink.addEventListener("click", function (event) {
+	if (footform.classList.contains("animated-form-foot")) {
+		footform.classList.remove("animated-form-foot");
+	}
+	else {
+		footform.classList.add("animated-form-foot");
+	}
 });
 //link.addEventListener("click", function (event) {
 //    if (form.classList.contains("close-form")) {

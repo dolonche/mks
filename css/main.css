@@ -18,6 +18,12 @@
     font-size: 14px;
 }
 
+.request-call-form-foot *::-webkit-input-placeholder {
+    text-align: center;
+    padding-left: 0;
+    font-size: 14px;
+}
+
 .right *::-webkit-input-placeholder {
     padding: 0;
     font-size: 14px;
@@ -1290,6 +1296,66 @@ form.call-form input:last-of-type {
     padding: 8px 20px;
     margin-top: 30px;
 }
+.request-call-form-foot {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    margin-left: -180px;
+}
+form.call-form-foot {
+    text-align: center;
+    display: none;
+    background-color: white;
+    width: 360px;
+    height: 300px;
+    left: 50%;
+    top: 100%;
+    margin-left: 0px;
+    border: 1px solid #d9dfe3;
+}
+form.call-form-foot .cross {
+    background-image: url(../images/closed-cross.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all
+}
+form.call-form-foot .cross:hover {
+    background-image: url(../images/closed-cross.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background-position: -205px 1px;
+}
+form.call-form-foot p {
+    padding-top: 50px;
+}
+form.call-form-foot input:first-of-type {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+form.call-form-foot input:last-of-type {
+    border: none;
+    background-color: #005dac;
+    color: white;
+    margin-top: 10px;
+    padding: 8px 20px;
+    margin-top: 30px;
+}
+.footer-wrapper {
+    position: relative
+}
 @-webkit-keyframes animate-form {
     0% {
         -webkit-transform: translateY(-2000px);
@@ -1322,12 +1388,34 @@ form.call-form input:last-of-type {
         transform: translateY(0);
     }
 }
+@keyframes animate-form-foot {
+    0% {
+        -webkit-transform: translateY(-2000px);
+        transform: translateY(-2000px);
+    }
+    
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
 form.call-form {
     z-index: 1000;
 }
 .animated-form {
     -webkit-animation-name: animate-form;
     animation-name: animate-form;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    z-index: 100;
+    display: block !important;
+}
+form.call-form-foot {
+    z-index: 1000;
+}
+.animated-form-foot {
+    -webkit-animation-name: animate-form-foot;
+    animation-name: animate-form-foot;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     z-index: 100;
