@@ -1947,3 +1947,21 @@ iframe {
 .entry-news {
     margin-bottom: 40px;
 }
+.error-page {
+    background-image: url(../images/404.png);
+    height: 1075px;
+    background-repeat: no-repeat;
+    background-position: center -1px
+}
+.error-page p {
+    text-align: center;
+    font-family: "Akrobat-Light";
+}
+.error-page p a {
+    text-decoration: underline;
+    color: #40c8f4;
+    font: inherit
+}
+.error-page p:first-of-type {
+    margin-top: 660px;
+}
