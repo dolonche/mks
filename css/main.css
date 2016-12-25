@@ -842,8 +842,9 @@ footer .col-md-3.col- li {
     margin-left: 10px;
 }
 .basket-items {
-    padding-top: 60px;
+    padding-top: 20px;
 }
+.basket-items:last-of-type {}
 .active-step {
     border: 1px solid #40C8F4 !important;
     color: #40C8F4
@@ -897,6 +898,9 @@ footer .col-md-3.col- li {
 .first-step-finish {
     margin-top: 57px;
     overflow: hidden;
+}
+.first-step-item {
+    padding-top: 1px;
 }
 .first-step-finish span:first-of-type {
     float: left;
@@ -994,6 +998,7 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
 }
 .type-of-pay-wrapper input[type="radio"]:nth-of-type(2) + label {
     margin-left: 70px;
+    margin-right: 10px;
 }
 .type-of-pay-wrapper input[type="radio"] + label::before {
     content: "";
@@ -1035,7 +1040,7 @@ form.delivery .type-of-pay-wrapper input[type="radio"] + label {
 }
 .second-step-finish {
     margin-bottom: 200px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .second-step-finish a:first-of-type {
     float: left;
@@ -1958,16 +1963,14 @@ iframe {
     margin-bottom: 40px;
 }
 .error-page {
-    background-image: url(../images/404.jpg);
-    background-repeat: no-repeat;
-    background-position: center -2px;
+    background-color: #f1f5fc;
     height: 100vh;
 }
 .error-page img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
 .error-page p {
     text-align: center;
@@ -1982,8 +1985,9 @@ iframe {
 .about p:last-of-type {
     padding-bottom: 50px;
 }
+
 /*чекбокс можно посмотреть на странице доставки*/
-input[type="checkbox"]{
+input[type="checkbox"] {
     display: none;
 }
 input[type="checkbox"] + label {
@@ -1998,8 +2002,8 @@ input[type="checkbox"] + label {
     margin: 0;
     cursor: pointer;
 }
-input[type="checkbox"]:checked + label::after{
-      content: "";
+input[type="checkbox"]:checked + label::after {
+    content: "";
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -2011,4 +2015,38 @@ input[type="checkbox"]:checked + label::after{
     background-repeat: no-repeat;
     background-position: 4px 5px;
     z-index: 1
+}
+.all-range {
+    width: 460px;
+    height: 4px;
+    background-color: #e2e7eb;
+    position: relative
+}
+.active-range {
+    width: 240px;
+    height: 4px;
+    background-color: #40c8f4;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.active-range::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #40c8f4;
+    border-radius: 50%;
+    top: -5px;
+    left: -1px;
+}
+.active-range::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #40c8f4;
+    border-radius: 50%;
+    top: -5px;
+    right: -1px;
 }
