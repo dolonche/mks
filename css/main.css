@@ -830,7 +830,7 @@ footer .col-md-3.col- li {
     margin-bottom: 70px;
 }
 .steps span:first-of-type {
-    padding: 20px 25px;
+    padding: 15px 25px;
     border: 1px solid #bfbfbf;
     border-radius: 50%;
     float: left;
@@ -838,7 +838,7 @@ footer .col-md-3.col- li {
 .steps span:last-of-type {
     float: left;
     font-size: 17.2px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 10px;
 }
 .basket-items {
@@ -1349,6 +1349,8 @@ form.call-form-foot .cross-foot:hover {
 }
 form.call-form-foot p {
     padding-top: 50px;
+    color: black;
+    font: inherit
 }
 form.call-form-foot input:first-of-type {
     width: 100%;
@@ -1818,12 +1820,12 @@ header {
 iframe {
     width: 100%;
     margin-bottom: 40px;
-    height: 750px;
+    height: 375px;
 }
 .contacts-main .col-md-9 p:first-of-type {
     margin-top: 70px;
     margin-bottom: 50px;
-    line-height: 26px;
+    line-height: 30px;
 }
 .contacts-main .col-md-9 span:first-of-type {
     margin-bottom: 30px;
@@ -1831,7 +1833,7 @@ iframe {
 }
 .contacts-main .col-md-9 p:last-of-type {
     line-height: 40px;
-    line-height: 26px;
+    line-height: 30px;
 }
 .contacts-main {
     margin-top: -50px;
@@ -1941,4 +1943,7 @@ iframe {
 .bottom-search {
     background-color: #fff;
     border-top: 1px solid #ccc
+}
+.entry-news {
+    margin-bottom: 40px;
 }

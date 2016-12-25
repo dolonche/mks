@@ -23,13 +23,13 @@
     <link rel="stylesheet" href="css/media.css" /> </head>
 
 <body>
-    <header>
+<header>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="top-line-header clearfix">
                         <div class="left-column"><span><a href="">Как оплатить</a></span><span><a href="delivery.html">Доставка</a></span></div>
-                        <div class="right-column-phone"><span class="phone-number"><a href="tel:+74957747555">+7 495 774–75–55</a></span><span><a href="" class="request-call">Заказать звонок</a></span></div>
+                        <div class="right-column-phone"><span class="phone-number"><a href="tel:+74957747555">+7 495 774–75–55</a></span> <span><a href="" class="request-call">Заказать звонок</a></span></div>
                     </div>
                     <div class="request-call-form">
                         <form action="post" class="call-form">
@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-5">
                         <div class="cart">
-                            <a href="basket.html"><img src="images/cart.png" alt=""> <span>Корзина</span> <span>5</span> <span>15 678 р</span></a>
+                            <a href="basket.html"><img src="images/cart.png" alt=""> <span>Корзина</span> <span>5</span> <span>15 678</span> <span>&#8381;</span></a>
                         </div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                                 </div>
                             </div>
                             <div class="col-md-2">
-                                <div class="main-navigation-wrapper-2"><img src="images/animation-header-menu.png" alt="" id="menu-cross" onClick="imgsrc();"> <span>Меню</span> </div>
+                                <div class="main-navigation-wrapper-2"><span></span> <span>Меню</span> </div>
                                 <nav class="main-navigation-2">
                                     <ul>
                                         <li><a href="#">О компании</a></li>
@@ -150,19 +150,22 @@
                             </div>
                             <div class="col-md-2">
                                 <div class="search-2">
-                                    <input type="text" placeholder="Поиск товаров"><i class="fa fa-search" aria-hidden="true"></i></div>
+                                    <span>Поиск товаров</span><i class="fa fa-search" aria-hidden="true"></i>
+                                    <!--                                    <input type="text" placeholder="Например: Daikin Miyora">-->
+                                </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="number-phone-2"><span><a href="tel:+74957747555">+7 495 774–75–55</a></span></div>
                             </div>
                             <div class="col-md-2">
                                 <div class="cart-2">
-                                    <div class="cart"><img src="images/cart.png" alt=""> <span>5</span> <span>15 678 р</span> </div>
+                                    <div class="cart"><img src="images/cart.png" alt=""> <span>5</span> <span>15 678</span><span>&#8381;</span> </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-12  hidden-xs">
                     <div class="form">
                         <form action="post">
@@ -218,7 +221,7 @@
         </div>
         </div>
        
-                <div class="paginator hidden-md hidden-sm hidden-lg">
+                <div class="paginator hidden-md hidden-lg">
                     <ul>
                         <li><a href="">‹</a></li>
                         <li><a href="">Предыдущая</a></li>
@@ -258,7 +261,7 @@
         </div>
 <div class="container">
             <div class="row">
-                <div class="paginator hidden-xs">
+                <div class="paginator hidden-xs hidden-sm">
                     <ul>
                         <li><a href="">‹</a></li>
                         <li><a href="">Предыдущая</a></li>
@@ -278,16 +281,14 @@
             </div>
         </div>
         
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 hidden-md hidden-lg
+<div class="container-fluid bottom-search">
+            <div class="col-xs-12 hidden-md hidden-lg
                     hidden-sm search-down">
-                    <div class="form">
-                        <form action="post" class="serach">
-                            <input type="search" placeholder="Поиск товаров">
-                            <button>Искать</button>
-                        </form>
-                    </div>
+                <div class="form">
+                    <form action="post" class="serach">
+                        <input type="search" placeholder="Поиск товаров">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </form>
                 </div>
             </div>
         </div>
@@ -296,9 +297,18 @@
         <div class="footer-wrapper">
             <div class="container">
                 <div class="row">
+                    <div class="request-call-form-foot">
+                        <form action="post" class="call-form-foot">
+                            <div class="cross-foot"></div>
+                            <p>Оставьте Ваш номер телефона
+                                <br> и мы перезвоним Вам
+                                <br>в течении 10 минут </p>
+                            <input type="text" name="phone-number" id="phone-number" placeholder="Ваш номер телефона">
+                            <input type="submit" value="Заказать звонок"> </form>
+                    </div>
                     <div class="footer-top">
                         <div class="col-md-2 col-sm-3 col-xs-12 first-item">
-                            <div class="footer-item"> <span><a href="tel:+74957747555">+7 495 774–75–55</a></span> <span>Заказать звонок</span> <span><a href="">Контакты</a></span> </div>
+                            <div class="footer-item"> <span><a href="tel:+74957747555">+7 495 774–75–55</a></span> <span><a href="" class="request-call-foot">Заказать звонок</a></span> <span><a href="">Контакты</a></span> </div>
                         </div>
                         <div class="col-md-3 col-md-push-1 col-sm-4 hidden-xs">
                             <div class="footer-item">

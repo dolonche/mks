@@ -10,6 +10,7 @@ var footlink = document.querySelector(".request-call-foot");
 var footform = document.querySelector(".call-form-foot");
 var footformwrapper = document.querySelector(".request-call-form-foot");
 var footcross = document.querySelector(".cross-foot");
+var search2 = document.querySelector(".search-2")
 mainmenu.addEventListener("click", function (event) {
     event.preventDefault();
 });
