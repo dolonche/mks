@@ -5,6 +5,9 @@
                         article img {
                             width: 100%;
                         }
+						.main-navigation{
+							margin-top: 10px;
+						}
                         .main-navigation li {
                             font-size: 18px;
                             padding: 0 15px;
@@ -152,6 +155,9 @@
                         .intro p {
                             margin-top: 50px !important;
                         }
+						.main-navigation{
+							margin-top: 5px;
+						}
                         .form button {
                             top: 0;
                         }
